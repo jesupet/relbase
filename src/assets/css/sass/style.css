@@ -9,13 +9,7 @@
   font-weight: 700;
 }
 
-.btn-text {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 500;
-  color: #fff;
-}
-
-.pre-navbar, .nav-text, .medium-p, p, .white-pre-titulo, .footer-p, .little-p {
+.white-btn-primary, .btn-primary, .btn-text, .pre-navbar, .nav-text, .medium-p, p, .white-pre-titulo, .footer-p, .little-p {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
 }
@@ -33,6 +27,12 @@
 
 .footer-p, .little-p {
   font-size: 15px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #FF5E2B;
+  border-color: transparent;
 }
 
 #app {
@@ -140,7 +140,7 @@ p {
 }
 
 .nav-text {
-  color: #000;
+  color: #556170;
   font-size: 16px;
 }
 
@@ -173,6 +173,37 @@ p {
 }
 .bgc-grey a {
   color: #C9DC00;
+}
+
+.navbar-logo {
+  width: 162px;
+}
+
+.nav-item a {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  border-color: #FF5E2B;
+  color: #FF5E2B;
+}
+
+.white-btn-primary {
+  background-color: #fff;
+  border-color: #FF5E2B;
+  color: #FF5E2B;
+}
+.white-btn-primary:hover {
+  color: #fff;
+  background-color: #FF5E2B;
+  border-color: transparent;
+}
+
+button {
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -83,7 +83,7 @@ p {
 //Navbar
 .nav-text {
   @extend %catamaran-font-medium;
-  color: $black-color;
+  color: $grey-color;
   font-size: 16px;
 }
 .pre-navbar {
@@ -99,7 +99,7 @@ p {
 
 //Buttons
 .btn-text {
-  @extend %catamaran-font-btn;
+  @extend %catamaran-font-medium;
   font-size: 15px;
   line-height: 35px;
 }

@@ -1,0 +1,22 @@
+.btn-primary {
+  @extend %button-color;
+  @extend %catamaran-font-medium;
+  &:hover {
+    @include changebuttoncolor;
+  }
+}
+
+.white-btn-primary {
+  @include changebuttoncolor;
+  @extend %catamaran-font-medium;
+  &:hover {
+    color: $white-color;
+    background-color: $orange-btn;
+    border-color: transparent;
+  }
+}
+
+button {
+  margin-right: 8px;
+  margin-left: 8px;
+}

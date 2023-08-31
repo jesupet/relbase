@@ -8,11 +8,6 @@
   font-family: $catamaran-font;
   font-weight: 700;
 }
-%catamaran-font-btn {
-  font-family: $catamaran-font;
-  font-weight: 500;
-  color: $white-color;
-}
 %catamaran-font-medium {
   font-family: $catamaran-font;
   font-weight: 400;
@@ -38,4 +33,9 @@
 %little-p {
   @extend %catamaran-font-medium;
   font-size: 15px;
+}
+%button-color {
+  color: $white-color;
+  background-color: $orange-btn;
+  border-color: transparent;
 }

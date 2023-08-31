@@ -2,9 +2,9 @@
   color: $grey-color;
 }
 @mixin changebuttoncolor {
-  color: $orange-btn;
   background-color: $white-color;
   border-color: $orange-btn;
+  color: $orange-btn;
 }
 @mixin uppercaser {
   text-transform: uppercase;
