@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap');
 
 $white-color: #fff;
 $black-color: #000;
@@ -7,29 +7,29 @@ $primary-color: #C9DC00;
 $orange-btn: #FF5E2B;
 
 
-$raleway-font: 'Raleway', sans-serif;
+$catamaran-font: 'Catamaran', sans-serif;
 $opensans-font: 'Open Sans', sans-serif;
 
 
-%raleway-font-bold {
-  font-family: $raleway-font;
+%catamaran-font-bold {
+  font-family: $catamaran-font;
   font-weight: 800;
 }
-%raleway-font-semibold {
-  font-family: $raleway-font;
+%catamaran-font-semibold {
+  font-family: $catamaran-font;
   font-weight: 700;
 }
-%raleway-font-btn {
-  font-family: $raleway-font;
+%catamaran-font-btn {
+  font-family: $catamaran-font;
   font-weight: 500;
   color: $white-color;
 }
-%raleway-font-medium {
-  font-family: $raleway-font;
+%catamaran-font-medium {
+  font-family: $catamaran-font;
   font-weight: 400;
 }
-%raleway-font-light {
-  font-family: $raleway-font;
+%catamaran-font-light {
+  font-family: $catamaran-font;
   font-weight: 300;
 }
 %opensans-font-medium {
@@ -47,13 +47,13 @@ $opensans-font: 'Open Sans', sans-serif;
   width: 100%;
 }
 %h4 {
-  @extend %raleway-font-bold;
+  @extend %catamaran-font-bold;
   color: $grey-color;
   font-size: 18px;
   line-height: 27px;
 }
 %little-p {
-  @extend %raleway-font-medium;
+  @extend %catamaran-font-medium;
   font-size: 15px;
 }
 

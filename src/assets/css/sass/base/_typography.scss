@@ -1,38 +1,51 @@
 //Titulos
 h1, h2, h3 {
-  @extend %raleway-font-bold;
+  @extend %catamaran-font-bold;
   color: $primary-color;
 }
 h1 {
-  font-size: 40px;
+  font-size: 55px;
+  line-height: 50px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 45px;
+  line-height: 45px;
 }
 h3 {
-  font-size: 28px;
+  font-size: 30px;
+  line-height: 45px;
 }
 h4 {
   @extend %h4
 }
 
 .titulo-gris {
-  font-size: 30px;
-  @extend %raleway-font-bold;
-  @include changecolor;
+  font-size: 22px;
+  @extend %catamaran-font-bold;
+  color: $grey-color;
+  line-height: 45px;
 }
 .pre-titulo {
-  @extend %little-p;
-  @include uppercaser
+  @extend %catamaran-font-bold;
+  font-size: 12px;
+  line-height: 40px;
+  color: $grey-color;
+}
+.white-pre-titulo {
+  @extend %catamaran-font-medium;
+  color: $white-color;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-size: 35px;
 }
 .little-sub {
   color: $primary-color;
-  @extend %raleway-font-bold;
-  font-size: 13px;
+  @extend %catamaran-font-bold;
+  font-size: 14px;
   line-height: 27px;
 }
 .subtittle {
-  @extend %raleway-font-light;
+  @extend %catamaran-font-light;
   font-size: 26px;
   color: $white-color;
   line-height: 35px;
@@ -44,16 +57,16 @@ h4 {
 
 //Parrafos
 p {
-  @extend %raleway-font-medium;
+  @extend %catamaran-font-medium;
   font-size: 20px;
   color: $grey-color;
   line-height: 30px;
 }
 .medium-p {
-  @extend %raleway-font-medium;
-  font-size: 18px;
+  @extend %catamaran-font-medium;
+  font-size: 17px;
   color: $grey-color;
-  line-height: 27px;
+  line-height: 24px;
 }
 .italic {
   font-style: itlaic;
@@ -61,7 +74,7 @@ p {
 }
 .little-p {
   @extend %little-p;
-  color: $white-color
+  color: $grey-color;
 }
 .footer-p {
   @extend %little-p;
@@ -69,22 +82,23 @@ p {
 }
 //Navbar
 .nav-text {
-  @extend %raleway-font-medium;
+  @extend %catamaran-font-medium;
   color: $black-color;
   font-size: 16px;
 }
 .pre-navbar {
-  @extend %opensans-font-medium;
+  @extend %catamaran-font-medium;
   color: $white-color;
 }
 .pre-pre-navbar {
-  @extend %opensans-font-bold;
+  @extend %catamaran-font-bold;
   color: $white-color;
+  font-size: 14px;
 }
 
 //Buttons
 .btn-text {
-  @extend %raleway-font-btn;
+  @extend %catamaran-font-btn;
   font-size: 15px;
   line-height: 35px;
 }
