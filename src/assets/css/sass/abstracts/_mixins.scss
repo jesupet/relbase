@@ -1,0 +1,7 @@
+@mixin changecolor {
+  color: $grey-color;
+}
+@mixin changebuttoncolor {
+  color: $dark-green;
+  background-color: $light-green;
+}

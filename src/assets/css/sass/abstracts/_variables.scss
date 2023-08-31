@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400&display=swap');
+
+$white-color: #fff;
+$black-color: #000;
+$grey-color: #556170;
+$primary-color: #C9DC00;
+$orange-btn: #FF5E2B;
+
+
+$raleway-font: 'Raleway', sans-serif;
+$opensans-font: 'Open Sans', sans-serif;
+
+
+%raleway-font-bold {
+  font-family: $raleway-font;
+  font-weight: 800;
+}
+%raleway-font-semibold {
+  font-family: $raleway-font;
+  font-weight: 700;
+}
+%raleway-font-light {
+  font-family: $raleway-font;
+  font-weight: 300;
+}
+%raleway-font-medium {
+  font-family: $raleway-font;
+  font-weight: 400;
+}
+%opensans-font-medium {
+  font-family: $opensans-font;
+  font-weight: 400;
+}
+%opensans-font-bold {
+  font-family: $opensans-font;
+  font-weight: 700;
+}
+%background-image {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+$accordion-button-color: #fff;
+
+$tablet-width: 768px;
+$phone-width: 480px;
+$desktop-width: 1024px;

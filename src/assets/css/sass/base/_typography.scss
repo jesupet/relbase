@@ -1,0 +1,104 @@
+//Titulos
+h1, h2, h3 {
+  @extend %raleway-font-bold;
+  color: $primary-color;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 28px;
+}
+.titulo-gris {
+  font-size: 30px;
+  @extend %raleway-font-bold;
+  @include changecolor;
+}
+.pre-titulo {
+  @extend %raleway-font-medium;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+//Parrafos
+p {
+  @extend %raleway-font-medium;
+  font-size: 20px;
+  color: $grey-color;
+  line-height: 30px;
+}
+.little-p {
+  @extend %raleway-font-medium;
+  font-size: 18px;
+  color: $grey-color;
+  line-height: 27px;
+}
+
+//Navbar
+.nav-text {
+  @extend %raleway-font-medium;
+  color: $black-color;
+  font-size: 16px;
+}
+.pre-navbar {
+  @extend %opensans-font-medium;
+  color: $white-color;
+}
+.pre-pre-navbar {
+  @extend %opensans-font-bold;
+  color: $white-color;
+}
+
+//SIN USAR
+.big-p {
+  @extend %nunito-font-light;
+  font-size: 25px;
+  padding: 0px 10px;
+}
+.contact-green-p {
+  @extend %montse-font-light;
+  font-size: 25px;
+  color: $dark-green;
+}
+.pre-navbar-txt {
+  @extend %montse-font-light;
+  font-size: 12px;
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  @media (max-width: $tablet-width){
+    font-size: 10px;
+  }
+}
+.acc-text {
+  @extend %montse-font-medium;
+  font-size: 28px;
+}
+.bajada-text {
+  @extend %montse-font-medium;
+  font-size: 14px;
+  color: $grey-font
+}
+.black-font {
+  color: $black-font;
+}
+.green-font {
+  color: $primary-color;
+}
+.grey-font {
+  color: $grey-font;
+}
+.numbers {
+  font-size: 60px;
+  color: $dark-green;
+}
+.bold-p {
+  font-weight: bold;
+}
+.input-text {
+  @extend %lato-font-light;
+  font-size: 22px;
+}
