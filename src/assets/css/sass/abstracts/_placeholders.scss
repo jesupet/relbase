@@ -1,0 +1,41 @@
+// FONTS
+
+%catamaran-font-bold {
+  font-family: $catamaran-font;
+  font-weight: 800;
+}
+%catamaran-font-semibold {
+  font-family: $catamaran-font;
+  font-weight: 700;
+}
+%catamaran-font-btn {
+  font-family: $catamaran-font;
+  font-weight: 500;
+  color: $white-color;
+}
+%catamaran-font-medium {
+  font-family: $catamaran-font;
+  font-weight: 400;
+}
+%catamaran-font-light {
+  font-family: $catamaran-font;
+  font-weight: 300;
+}
+%opensans-font-medium {
+  font-family: $opensans-font;
+  font-weight: 400;
+}
+%opensans-font-bold {
+  font-family: $opensans-font;
+  font-weight: 700;
+}
+%h4 {
+  @extend %catamaran-font-bold;
+  color: $grey-color;
+  font-size: 18px;
+  line-height: 27px;
+}
+%little-p {
+  @extend %catamaran-font-medium;
+  font-size: 15px;
+}

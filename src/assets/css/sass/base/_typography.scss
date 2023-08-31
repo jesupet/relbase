@@ -64,7 +64,7 @@ p {
 }
 .medium-p {
   @extend %catamaran-font-medium;
-  font-size: 17px;
+  font-size: 18px;
   color: $grey-color;
   line-height: 24px;
 }
@@ -89,9 +89,10 @@ p {
 .pre-navbar {
   @extend %catamaran-font-medium;
   color: $white-color;
+  font-size: 15px;
 }
 .pre-pre-navbar {
-  @extend %catamaran-font-bold;
+  @extend %catamaran-font-semibold;
   color: $white-color;
   font-size: 14px;
 }

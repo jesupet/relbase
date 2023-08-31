@@ -9,9 +9,13 @@
 }
 body {
   height: 100%;
-  color: $black-font;
+  color: $grey-color;
 }
 a, a:hover {
   text-decoration: none;
   color: inherit;
+}
+p {
+  margin: 0px;
+  padding: 0px;
 }

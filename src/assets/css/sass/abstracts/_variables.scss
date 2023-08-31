@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap');
 
+//COLORES
 $white-color: #fff;
 $black-color: #000;
 $grey-color: #556170;
@@ -7,58 +8,16 @@ $primary-color: #C9DC00;
 $orange-btn: #FF5E2B;
 
 
+//FONTS
 $catamaran-font: 'Catamaran', sans-serif;
 $opensans-font: 'Open Sans', sans-serif;
 
 
-%catamaran-font-bold {
-  font-family: $catamaran-font;
-  font-weight: 800;
-}
-%catamaran-font-semibold {
-  font-family: $catamaran-font;
-  font-weight: 700;
-}
-%catamaran-font-btn {
-  font-family: $catamaran-font;
-  font-weight: 500;
-  color: $white-color;
-}
-%catamaran-font-medium {
-  font-family: $catamaran-font;
-  font-weight: 400;
-}
-%catamaran-font-light {
-  font-family: $catamaran-font;
-  font-weight: 300;
-}
-%opensans-font-medium {
-  font-family: $opensans-font;
-  font-weight: 400;
-}
-%opensans-font-bold {
-  font-family: $opensans-font;
-  font-weight: 700;
-}
-%background-image {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-%h4 {
-  @extend %catamaran-font-bold;
-  color: $grey-color;
-  font-size: 18px;
-  line-height: 27px;
-}
-%little-p {
-  @extend %catamaran-font-medium;
-  font-size: 15px;
-}
 
-$accordion-button-color: #fff;
 
+//RESPONSIVE
 $tablet-width: 768px;
 $phone-width: 480px;
 $desktop-width: 1024px;
+
+

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap");
+.little-sub, .pre-titulo, .titulo-gris, h1, h2, h3, .italic, .footer-tittle, h4 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 800;
+}
+
+.pre-pre-navbar {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+}
+
+.btn-text {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.pre-navbar, .nav-text, .medium-p, p, .white-pre-titulo, .footer-p, .little-p {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+}
+
+.subtittle {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 300;
+}
+
+.italic, .footer-tittle, h4 {
+  color: #556170;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.footer-p, .little-p {
+  font-size: 15px;
+}
+
+#app {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  color: #556170;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3 {
+  color: #C9DC00;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.titulo-gris {
+  font-size: 22px;
+  color: #556170;
+  line-height: 45px;
+}
+
+.pre-titulo {
+  font-size: 12px;
+  line-height: 40px;
+  color: #556170;
+}
+
+.white-pre-titulo {
+  color: #fff;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.little-sub {
+  color: #C9DC00;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.subtittle {
+  font-size: 26px;
+  color: #fff;
+  line-height: 35px;
+}
+
+.footer-tittle {
+  color: #C9DC00;
+}
+
+p {
+  font-size: 20px;
+  color: #556170;
+  line-height: 30px;
+}
+
+.medium-p {
+  font-size: 18px;
+  color: #556170;
+  line-height: 24px;
+}
+
+.italic {
+  font-style: itlaic;
+}
+
+.little-p {
+  color: #556170;
+}
+
+.footer-p {
+  font-size: 14px;
+}
+
+.nav-text {
+  color: #000;
+  font-size: 16px;
+}
+
+.pre-navbar {
+  color: #fff;
+  font-size: 15px;
+}
+
+.pre-pre-navbar {
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-text {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.bgc-green {
+  background-color: #C9DC00;
+  color: #fff;
+}
+.bgc-green a {
+  text-decoration: underline;
+}
+
+.bgc-grey {
+  background-color: #556170;
+  color: #fff;
+}
+.bgc-grey a {
+  color: #C9DC00;
+}
+
+/*# sourceMappingURL=style.css.map */
