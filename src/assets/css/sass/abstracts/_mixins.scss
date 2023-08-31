@@ -5,3 +5,6 @@
   color: $dark-green;
   background-color: $light-green;
 }
+@mixin uppercaser {
+  text-transform: uppercase;
+}

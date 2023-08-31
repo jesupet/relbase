@@ -19,13 +19,18 @@ $opensans-font: 'Open Sans', sans-serif;
   font-family: $raleway-font;
   font-weight: 700;
 }
-%raleway-font-light {
+%raleway-font-btn {
   font-family: $raleway-font;
-  font-weight: 300;
+  font-weight: 500;
+  color: $white-color;
 }
 %raleway-font-medium {
   font-family: $raleway-font;
   font-weight: 400;
+}
+%raleway-font-light {
+  font-family: $raleway-font;
+  font-weight: 300;
 }
 %opensans-font-medium {
   font-family: $opensans-font;
@@ -40,6 +45,16 @@ $opensans-font: 'Open Sans', sans-serif;
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
+}
+%h4 {
+  @extend %raleway-font-bold;
+  color: $grey-color;
+  font-size: 18px;
+  line-height: 27px;
+}
+%little-p {
+  @extend %raleway-font-medium;
+  font-size: 15px;
 }
 
 $accordion-button-color: #fff;
