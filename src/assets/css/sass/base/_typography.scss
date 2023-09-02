@@ -38,16 +38,29 @@ h4 {
   text-transform: uppercase;
   font-size: 35px;
 }
+.green-pre-titulo {
+  @extend %catamaran-font-bold;
+  font-size: 12px;
+  color: $primary-color;
+  line-height: 15px;
+}
 .little-sub {
   color: $primary-color;
-  @extend %catamaran-font-bold;
+  @extend %catamaran-font-semibold;
   font-size: 14px;
-  line-height: 27px;
+  line-height: 35px;
+  text-transform: uppercase;
 }
 .subtittle {
   @extend %catamaran-font-light;
   font-size: 26px;
   color: $white-color;
+  line-height: 35px;
+}
+.white-subtittle {
+  @extend %catamaran-font-bold;
+  color: $white-color;
+  font-size: 35px;
   line-height: 35px;
 }
 .footer-tittle {
@@ -75,6 +88,11 @@ p {
 .little-p {
   @extend %little-p;
   color: $grey-color;
+}
+.little-p-white {
+  @extend %little-p;
+  color: $white-color;
+  line-height: 18px;
 }
 .footer-p {
   @extend %little-p;
