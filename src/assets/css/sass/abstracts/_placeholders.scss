@@ -39,3 +39,7 @@
   background-color: $orange-btn;
   border-color: transparent;
 }
+%absolute-over {
+    position: absolute;
+    z-index: 1;
+}

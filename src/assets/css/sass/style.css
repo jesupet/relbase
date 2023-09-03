@@ -35,6 +35,11 @@
   border-color: transparent;
 }
 
+.window-header-2, .window-header-1 {
+  position: absolute;
+  z-index: 1;
+}
+
 #app {
   width: 100%;
   box-sizing: border-box;
@@ -260,9 +265,35 @@ header .subtittle {
   border-right: 2px solid #C9DC00;
 }
 
-.hombre img {
+.hombre {
   position: absolute;
-  right: 10;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -75px;
+}
+
+.window-header-1 {
+  bottom: 40%;
+  right: 40%;
+}
+.window-header-1 img {
+  width: 237px;
+}
+
+.window-header-1 {
+  bottom: 40%;
+  right: 40%;
+}
+.window-header-1 img {
+  width: 237px;
+}
+
+.window-header-2 {
+  bottom: 25%;
+  right: 8%;
+}
+.window-header-2 img {
+  width: 167px;
 }
 
 /*# sourceMappingURL=style.css.map */

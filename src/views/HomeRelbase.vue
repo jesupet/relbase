@@ -25,9 +25,17 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-7 col-md-6 hombre">
-            <div class="">
-              <img src="../assets/hombre_header.png" alt="" >
+          <div class="col-xl-7 col-md-6">
+            <div class="hombre">
+              <div class="d-none d-md-block">
+                <img src="../assets/hombre_header.png" alt="" >
+              </div>
+            </div>
+            <div class="window-header-1">
+              <img src="../assets/recaudacion_header.png" alt="">
+            </div>
+            <div class="window-header-2">
+              <img src="../assets/app_header.png" alt="">
             </div>
           </div>
         </div>

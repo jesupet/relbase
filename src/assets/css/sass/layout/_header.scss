@@ -24,8 +24,32 @@ header {
   border-right: 2px solid $primary-color;
 }
 .hombre {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -75px; 
+}
+.window-header-1 {
+  @extend %absolute-over;
+  bottom: 40%;
+  right: 40%;
   img {
-    position: absolute;
-    right: 10;
+    width: 237px;
+  }
+}
+.window-header-1 {
+  @extend %absolute-over;
+  bottom: 40%;
+  right: 40%;
+  img {
+    width: 237px;
+  }
+}
+.window-header-2 {
+  @extend %absolute-over;
+  bottom: 25%;
+  right: 8%;
+  img {
+    width: 167px;
   }
 }
