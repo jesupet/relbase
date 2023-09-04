@@ -4,6 +4,7 @@
   &:hover {
     @include changebuttoncolor;
   }
+  padding: 5px 20px;
 }
 
 .white-btn-primary {
@@ -14,6 +15,7 @@
     background-color: $orange-btn;
     border-color: transparent;
   }
+  padding: 5px 20px;
 }
 
 button {

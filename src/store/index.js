@@ -1,10 +1,13 @@
 import { defineStore } from 'pinia'
+import pasos from './pasos.json';
 
 
 
-export default defineStore({
-  state: {
-  },
+export const useCounterStore = defineStore('counter', {
+  state: () => ({
+    counter: 0,
+    pasos: pasos,
+  }),
   getters: {
   },
   mutations: {
