@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavbarRelbase/>
+    <!--HEADER-->
     <div class="container-fluid bg-header">
       <header class="container">
         <div class="row">
@@ -40,57 +41,61 @@
           </div>
         </div>
       </header>
-      <!-- SECTION 1 -->
-      <section class="container-fluid" id="simplificamos">
-          <div class="row">
-            <div class="col-xl-7 col-md-6">
-              <img src="../assets/software.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-xl-5 col-md-6 contenido1">
-              <div class="d-flex flex-row mb-3">
-                <LinePretittle :class="'d-flex'" :stroke="'#556170'"/>
-                <p class="pre-titulo">Pensado en pymes y emprendedores</p>
-              </div>
-              <h2>Simplificamos la forma en que venden las empresas.</h2>
-              <div class="row mt-5 mb-5">
-                <div class="col-xl-6 col-12">
-                  <img src="../assets/vectors/codigo.svg" alt="icono codigo">
-                  <p class="titulo-gris">
-                    relBase
-                  </p>
-                  <p class="little-p">
-                    es el software de ventas con boleta y factura electrónica, 100% web pensado para Pymes y emprendedores.
-                  </p>
-                </div>
-                <div class="col-xl-6 col-12">
-                  <img src="../assets/vectors/monitor.svg" alt="icono codigo">
-                  <p class="titulo-gris">
-                    Crea documentos
-                  </p>
-                  <p class="little-p">
-                    desde cualquier computador conectado a internet sin la necesidad de instalar absolutamente nada.
-                  </p>
-                </div>
-              </div>
-              <RoundedBtn :buttonText="'Contratar'"/>
-            </div>
-          </div>
-      </section>
-      <!-- SECTION 2 -->
-      <section id="pasos" class="container text-center">
-        <p class="pre-titulo">
-          Simples pasos a seguir
-        </p>
-        <LinePretittle :stroke="'#556170'"/>
-        <h3>¿Cómo me cambio a Relbase?</h3>
-        <div class="diagram">
-          <div class="dotted-line">
-            <hr>
-          </div>
-          <StepCard/>    
+    </div>
+    <!-- SECTION 1: SIMPLIFICAMOS -->
+    <section class="container-fluid" id="simplificamos">
+      <div class="row">
+        <div class="col-xl-7 col-md-6">
+          <img src="../assets/software.png" alt="" class="img-fluid">
         </div>
-        
-        
+        <div class="col-xl-5 col-md-6 contenido1">
+          <div class="d-flex flex-row mb-3">
+            <LinePretittle :class="'d-flex'" :stroke="'#556170'"/>
+            <p class="pre-titulo">Pensado en pymes y emprendedores</p>
+          </div>
+          <h2>Simplificamos la forma en que venden las empresas.</h2>
+          <div class="row mt-5 mb-5">
+            <div class="col-xl-6 col-12">
+              <img src="../assets/vectors/codigo.svg" alt="icono codigo">
+              <p class="titulo-gris">
+                relBase
+              </p>
+              <p class="little-p">
+                es el software de ventas con boleta y factura electrónica, 100% web pensado para Pymes y emprendedores.
+              </p>
+            </div>
+            <div class="col-xl-6 col-12">
+              <img src="../assets/vectors/monitor.svg" alt="icono codigo">
+              <p class="titulo-gris">
+                Crea documentos
+              </p>
+              <p class="little-p">
+                desde cualquier computador conectado a internet sin la necesidad de instalar absolutamente nada.
+              </p>
+            </div>
+          </div>
+          <RoundedBtn :buttonText="'Contratar'"/>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 2: PASOS -->
+    <section id="pasos" class="container text-center">
+      <p class="pre-titulo">
+        Simples pasos a seguir
+      </p>
+      <LinePretittle :stroke="'#556170'"/>
+      <h3>¿Cómo me cambio a Relbase?</h3>
+      <div class="diagram">
+        <div class="dotted-line">
+          <hr>
+        </div>
+        <StepCard/>    
+      </div>
+    </section>
+    <!--SECTION 3: MAPA-->
+    <div class="bg-mapa">
+      <section id="mapa" class="container">
+
       </section>
     </div>
   </div>
