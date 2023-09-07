@@ -95,7 +95,19 @@
     <!--SECTION 3: MAPA-->
     <div class="bg-mapa">
       <section id="mapa" class="container">
-
+        <div class="row">
+          <div class="col-xl-5 col-md-6 box-text-map">
+            <p class="white-pre-titulo">+2.000 empresas y emprendedores</p>
+            <h2 class="mt-3">Confían en nosotros</h2>
+            <p class="medium-p-white mt-4 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <RoundedBtn :buttonText="'Ver testimonios'"/>
+          </div>
+          <div class="col-xl-7 col-md-6">
+            <img src="../assets/map.png" alt="">
+          </div>
+        </div>
       </section>
     </div>
   </div>

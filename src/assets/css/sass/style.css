@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap");
-.white-subtittle, .green-pre-titulo, .pre-titulo, .titulo-gris, h1, h2, h3, .italic, .footer-tittle, h4 {
+h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-titulo, .white-subtittle {
   font-family: "Catamaran", sans-serif;
   font-weight: 800;
 }
 
-.pre-pre-navbar, .little-sub {
+.little-sub, .pre-pre-navbar {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
 }
 
-.white-btn-primary, .btn-primary, .btn-text, .pre-navbar, .nav-text, .medium-p, p, .white-pre-titulo, .footer-p, .little-p-white, .little-p {
+.little-p, .little-p-white, .footer-p, .white-pre-titulo, p, .medium-p, .medium-p-white, .nav-text, .pre-navbar, .btn-text, .btn-primary, .white-btn-primary {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
 }
@@ -19,13 +19,13 @@
   font-weight: 300;
 }
 
-.italic, .footer-tittle, h4 {
+h4, .footer-tittle, .italic {
   color: #556170;
   font-size: 18px;
   line-height: 27px;
 }
 
-.footer-p, .little-p-white, .little-p {
+.little-p, .little-p-white, .footer-p {
   font-size: 15px;
 }
 
@@ -35,14 +35,15 @@
   border-color: transparent;
 }
 
-.window-header-2, .window-header-1 {
+.window-header-1, .window-header-2 {
   position: absolute;
   z-index: 1;
 }
 
 #app {
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -145,6 +146,12 @@ p {
   line-height: 24px;
 }
 
+.medium-p-white {
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+}
+
 .italic {
   font-style: itlaic;
 }
@@ -186,6 +193,7 @@ p {
   background-color: #C9DC00;
   color: #fff;
 }
+
 .bgc-green a {
   text-decoration: underline;
 }
@@ -194,6 +202,7 @@ p {
   background-color: #556170;
   color: #fff;
 }
+
 .bgc-grey a {
   color: #C9DC00;
 }
@@ -209,7 +218,9 @@ p {
 
 .btn-primary {
   padding: 5px 20px;
+  line-height: 35px;
 }
+
 .btn-primary:hover {
   background-color: #fff;
   border-color: #FF5E2B;
@@ -221,7 +232,9 @@ p {
   border-color: #FF5E2B;
   color: #FF5E2B;
   padding: 5px 20px;
+  line-height: 35px;
 }
+
 .white-btn-primary:hover {
   color: #fff;
   background-color: #FF5E2B;
@@ -253,7 +266,8 @@ button {
   border-radius: 20px;
   border: 1px solid rgba(85, 97, 112, 0.2);
   background: #FFF;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .numero {
@@ -269,9 +283,11 @@ button {
 header {
   height: 858px;
 }
+
 header h1 {
   padding-top: 14px;
 }
+
 header .subtittle {
   margin-right: 20%;
 }
@@ -299,6 +315,7 @@ header .subtittle {
   bottom: 40%;
   right: 40%;
 }
+
 .window-header-1 img {
   width: 237px;
 }
@@ -307,6 +324,7 @@ header .subtittle {
   bottom: 40%;
   right: 40%;
 }
+
 .window-header-1 img {
   width: 237px;
 }
@@ -315,6 +333,7 @@ header .subtittle {
   bottom: 25%;
   right: 8%;
 }
+
 .window-header-2 img {
   width: 167px;
 }
@@ -323,6 +342,7 @@ header .subtittle {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+
 #simplificamos .little-p {
   line-height: 22px;
   margin-right: 32px;
@@ -345,6 +365,7 @@ header .subtittle {
   z-index: -1;
   top: 10;
 }
+
 .dotted-line hr {
   border: none;
   border-top: 1px dashed #556170;
@@ -357,9 +378,12 @@ header .subtittle {
 .bg-mapa {
   background: radial-gradient(500.05% 52.41% at 61.75% 88.6%, rgba(85, 97, 112, 0.7) 0%, #556170 100%);
   mix-blend-mode: multiply;
-  height: 858px;
+  min-height: 1052px;
   margin-top: -250px;
   padding-top: 250px;
 }
 
+.box-text-map {
+  padding: 100px;
+}
 /*# sourceMappingURL=style.css.map */

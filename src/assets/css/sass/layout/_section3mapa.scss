@@ -1,7 +1,10 @@
 .bg-mapa {
   background: radial-gradient(500.05% 52.41% at 61.75% 88.6%, rgba(85, 97, 112, 0.70) 0%, #556170 100%);
   mix-blend-mode: multiply;
-  height: 858px;
+  min-height: 1052px;
   margin-top: -250px;
   padding-top: 250px;
+}
+.box-text-map {
+  padding: 100px;
 }
