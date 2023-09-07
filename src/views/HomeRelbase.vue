@@ -110,6 +110,8 @@
         </div>
       </section>
     </div>
+    <!--- FOOTER --->
+    <FooterRelbase/>
   </div>
 </template>
 
@@ -119,6 +121,7 @@ import PlayBtn from '../components/PlayBtn.vue'
 import LinePretittle from '../components/LinePretittle.vue'
 import RoundedBtn from '../components/RoundedBtn.vue'
 import StepCard from '../components/StepCard.vue'
+import FooterRelbase from '../components/FooterRelbase.vue'
 
 export default {
   name: 'HomeRelbase',
@@ -128,6 +131,7 @@ export default {
     LinePretittle,
     RoundedBtn,
     StepCard,
+    FooterRelbase,
   }
 }
 </script>

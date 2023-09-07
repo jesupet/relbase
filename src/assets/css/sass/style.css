@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap");
-h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-titulo, .white-subtittle {
+.titulo-gris-footer, .white-subtittle, .green-pre-titulo, .pre-titulo, .titulo-gris, h1, h2, h3, .italic, .footer-tittle, h4 {
   font-family: "Catamaran", sans-serif;
   font-weight: 800;
 }
 
-.little-sub, .pre-pre-navbar {
+.footer-tittle-mini, .footer-tittle, .pre-pre-navbar, .little-sub {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
 }
 
-.little-p, .little-p-white, .footer-p, .white-pre-titulo, p, .medium-p, .medium-p-white, .nav-text, .pre-navbar, .btn-text, .btn-primary, .white-btn-primary {
+.white-btn-primary, .btn-primary, .btn-text, .pre-navbar, .nav-text, .medium-p-white, .medium-p, p, .white-pre-titulo, .footer-p, .little-p-white, .little-p {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
 }
@@ -19,13 +19,13 @@ h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-t
   font-weight: 300;
 }
 
-h4, .footer-tittle, .italic {
+.italic, .footer-tittle, h4 {
   color: #556170;
   font-size: 18px;
   line-height: 27px;
 }
 
-.little-p, .little-p-white, .footer-p {
+.footer-p, .little-p-white, .little-p {
   font-size: 15px;
 }
 
@@ -35,15 +35,14 @@ h4, .footer-tittle, .italic {
   border-color: transparent;
 }
 
-.window-header-1, .window-header-2 {
+.window-header-2, .window-header-1 {
   position: absolute;
   z-index: 1;
 }
 
 #app {
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -134,6 +133,12 @@ h3 {
   color: #C9DC00;
 }
 
+.titulo-gris-footer {
+  font-size: 30px;
+  color: #556170;
+  line-height: 35px;
+}
+
 p {
   font-size: 20px;
   color: #556170;
@@ -189,11 +194,24 @@ p {
   line-height: 35px;
 }
 
+.footer-tittle {
+  font-size: 18px;
+  line-height: 27px;
+  /* 150% */
+  color: #C9DC00;
+}
+
+.footer-tittle-mini {
+  font-size: 14px;
+  line-height: 27px;
+  /* 150% */
+  color: #C9DC00;
+}
+
 .bgc-green {
   background-color: #C9DC00;
   color: #fff;
 }
-
 .bgc-green a {
   text-decoration: underline;
 }
@@ -202,7 +220,6 @@ p {
   background-color: #556170;
   color: #fff;
 }
-
 .bgc-grey a {
   color: #C9DC00;
 }
@@ -220,7 +237,6 @@ p {
   padding: 5px 20px;
   line-height: 35px;
 }
-
 .btn-primary:hover {
   background-color: #fff;
   border-color: #FF5E2B;
@@ -234,7 +250,6 @@ p {
   padding: 5px 20px;
   line-height: 35px;
 }
-
 .white-btn-primary:hover {
   color: #fff;
   background-color: #FF5E2B;
@@ -266,8 +281,7 @@ button {
   border-radius: 20px;
   border: 1px solid rgba(85, 97, 112, 0.2);
   background: #FFF;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .numero {
@@ -283,11 +297,9 @@ button {
 header {
   height: 858px;
 }
-
 header h1 {
   padding-top: 14px;
 }
-
 header .subtittle {
   margin-right: 20%;
 }
@@ -315,7 +327,6 @@ header .subtittle {
   bottom: 40%;
   right: 40%;
 }
-
 .window-header-1 img {
   width: 237px;
 }
@@ -324,7 +335,6 @@ header .subtittle {
   bottom: 40%;
   right: 40%;
 }
-
 .window-header-1 img {
   width: 237px;
 }
@@ -333,7 +343,6 @@ header .subtittle {
   bottom: 25%;
   right: 8%;
 }
-
 .window-header-2 img {
   width: 167px;
 }
@@ -342,7 +351,6 @@ header .subtittle {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-
 #simplificamos .little-p {
   line-height: 22px;
   margin-right: 32px;
@@ -365,7 +373,6 @@ header .subtittle {
   z-index: -1;
   top: 10;
 }
-
 .dotted-line hr {
   border: none;
   border-top: 1px dashed #556170;
@@ -386,4 +393,42 @@ header .subtittle {
 .box-text-map {
   padding: 100px;
 }
+
+.green-bg {
+  background-color: #C9DC00;
+  height: 182px;
+}
+
+.grey-bg {
+  background-color: #556170;
+  margin-top: -178px;
+  padding-top: 178px;
+  padding-bottom: 100px;
+}
+
+.footer-card {
+  width: 561px;
+  height: 202px;
+  margin: 78px 12px;
+}
+
+.card {
+  padding: 35px;
+}
+
+.card-body {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.little-logo {
+  width: 134px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -67,7 +67,12 @@ h4 {
   @extend %h4;
   color: $primary-color;
 }
-
+.titulo-gris-footer {
+  font-size: 30px;
+  @extend %catamaran-font-bold;
+  color: $grey-color;
+  line-height: 35px;
+}
 //Parrafos
 p {
   @extend %catamaran-font-medium;
@@ -126,4 +131,18 @@ p {
   @extend %catamaran-font-medium;
   font-size: 15px;
   line-height: 35px;
+}
+
+//Footer
+.footer-tittle {
+  @extend %catamaran-font-semibold;
+  font-size: 18px;
+  line-height: 27px; /* 150% */;
+  color: $primary-color;
+}
+.footer-tittle-mini {
+  @extend %catamaran-font-semibold;
+  font-size: 14px;
+  line-height: 27px; /* 150% */
+  color: $primary-color;
 }
