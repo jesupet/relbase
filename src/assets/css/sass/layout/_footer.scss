@@ -1,26 +1,45 @@
 .green-bg {
   background-color: $primary-color;
-  height: 182px;
+  height: 30vh;
+  @media (max-width: $desktop-width){
+    height: 80vh
+  }
 }
 .grey-bg {
   background-color: $grey-color;
   margin-top: -178px;
   padding-top: 178px;
   padding-bottom:  100px;
+  @media (max-width: $desktop-width){
+    margin-top: -100px;
+  }
 }
 .footer-card {
-  width: 561px;
+  width: 90%;
   height: 202px;
-  margin: 78px 12px;
-  
-}
-.card {
+  margin: 78px 0px 78px 0px;
   padding: 35px ;
-}
-.card-body {
-  padding: 0px;
-  display: flex;
-  align-items: center;
+  .card-body {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  };
+  @media (max-width: $desktop-width){
+    width: 60%;
+    margin: 32px 0px;
+  }
+  @media (max-width: $big-tablet-width){
+    width: 80%;
+    margin: 32px 0px;
+  }
+  @media (max-width: $tablet-width){
+    width: 80%;
+    margin: 32px 0px;
+    padding: 24px ;
+    .card-body {
+      flex-direction: column;
+    }
+  }
 }
 .footer-p {
   @extend %catamaran-font-medium;
@@ -29,4 +48,40 @@
 }
 .little-logo {
   width: 134px;
+}
+.footer-line {
+  border: none;
+  border-top: 1px solid $white-color;
+  height: 1px;
+  opacity: 1;
+}
+.first-col {
+  padding-right: 100px;
+  @media (max-width: $desktop-width){
+    padding-right: 12px;
+  }
+}
+.sec-col {
+  padding-right: 30px;
+  @media (max-width: $desktop-width){
+    padding-right: 12px;
+  }
+}
+.trd-col {
+  padding-left: 20px;
+  @media (max-width: $desktop-width){
+    padding-left: 12px;
+  }
+}
+.last-col {
+  padding-left: 100px;
+  @media (max-width: $desktop-width){
+    padding-left: 12px;
+  }
+}
+.footer-icon {
+  padding: 5px;
+  @media (max-width: $desktop-width){
+    padding-bottom: 50px;
+  }
 }

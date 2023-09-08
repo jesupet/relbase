@@ -27,7 +27,10 @@ header {
   position: absolute;
   right: 0;
   bottom: 0;
-  margin-bottom: -75px; 
+  margin-bottom: -75px;
+  @media (max-width: $desktop-width) {
+    margin-right: -150px;
+  }
 }
 .window-header-1 {
   @extend %absolute-over;

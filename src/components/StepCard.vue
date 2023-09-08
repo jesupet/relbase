@@ -1,6 +1,6 @@
 <template>
 <div class="row text-center">
-  <div class="col-xl-3 col-12" v-for="(pasos, index) in pasos" :key="index">
+  <div class="col-xl-3 col-12 step-cont" v-for="(pasos, index) in pasos" :key="index">
     <img :src="getSvgPath(pasos.numero)" alt="" class="numero">
     <div class="card align-items-center">
       <img :src="getImagePath(pasos.icono)" class="card-img-top icono-pasos" alt="...">

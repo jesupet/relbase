@@ -183,10 +183,20 @@ p {
   color: #fff;
   font-size: 15px;
 }
+@media (max-width: 576px) {
+  .pre-navbar {
+    font-size: 12px;
+  }
+}
 
 .pre-pre-navbar {
   color: #fff;
   font-size: 14px;
+}
+@media (max-width: 576px) {
+  .pre-pre-navbar {
+    font-size: 10px;
+  }
 }
 
 .btn-text {
@@ -277,7 +287,7 @@ button {
   width: 271px;
   height: 327px;
   padding: 43px 16px;
-  margin: 0px 16px;
+  margin: 0px 16px 32px;
   border-radius: 20px;
   border: 1px solid rgba(85, 97, 112, 0.2);
   background: #FFF;
@@ -321,6 +331,11 @@ header .subtittle {
   right: 0;
   bottom: 0;
   margin-bottom: -75px;
+}
+@media (max-width: 1200px) {
+  .hombre {
+    margin-right: -150px;
+  }
 }
 
 .window-header-1 {
@@ -381,6 +396,24 @@ header .subtittle {
   margin-right: 140px;
   margin-left: 140px;
 }
+@media (max-width: 1200px) {
+  .dotted-line hr {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .numero {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .step-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .bg-mapa {
   background: radial-gradient(500.05% 52.41% at 61.75% 88.6%, rgba(85, 97, 112, 0.7) 0%, #556170 100%);
@@ -393,10 +426,20 @@ header .subtittle {
 .box-text-map {
   padding: 100px;
 }
+@media (max-width: 1200px) {
+  .box-text-map {
+    padding: 100px 48px;
+  }
+}
 
 .green-bg {
   background-color: #C9DC00;
-  height: 182px;
+  height: 30vh;
+}
+@media (max-width: 1200px) {
+  .green-bg {
+    height: 80vh;
+  }
 }
 
 .grey-bg {
@@ -405,21 +448,44 @@ header .subtittle {
   padding-top: 178px;
   padding-bottom: 100px;
 }
+@media (max-width: 1200px) {
+  .grey-bg {
+    margin-top: -100px;
+  }
+}
 
 .footer-card {
-  width: 561px;
+  width: 90%;
   height: 202px;
-  margin: 78px 12px;
-}
-
-.card {
+  margin: 78px 0px 78px 0px;
   padding: 35px;
 }
-
-.card-body {
+.footer-card .card-body {
   padding: 0px;
   display: flex;
   align-items: center;
+}
+@media (max-width: 1200px) {
+  .footer-card {
+    width: 60%;
+    margin: 32px 0px;
+  }
+}
+@media (max-width: 992px) {
+  .footer-card {
+    width: 80%;
+    margin: 32px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-card {
+    width: 80%;
+    margin: 32px 0px;
+    padding: 24px;
+  }
+  .footer-card .card-body {
+    flex-direction: column;
+  }
 }
 
 .footer-p {
@@ -429,6 +495,58 @@ header .subtittle {
 
 .little-logo {
   width: 134px;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #fff;
+  height: 1px;
+  opacity: 1;
+}
+
+.first-col {
+  padding-right: 100px;
+}
+@media (max-width: 1200px) {
+  .first-col {
+    padding-right: 12px;
+  }
+}
+
+.sec-col {
+  padding-right: 30px;
+}
+@media (max-width: 1200px) {
+  .sec-col {
+    padding-right: 12px;
+  }
+}
+
+.trd-col {
+  padding-left: 20px;
+}
+@media (max-width: 1200px) {
+  .trd-col {
+    padding-left: 12px;
+  }
+}
+
+.last-col {
+  padding-left: 100px;
+}
+@media (max-width: 1200px) {
+  .last-col {
+    padding-left: 12px;
+  }
+}
+
+.footer-icon {
+  padding: 5px;
+}
+@media (max-width: 1200px) {
+  .footer-icon {
+    padding-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

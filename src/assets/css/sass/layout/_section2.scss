@@ -17,5 +17,19 @@
     opacity: 1;
     margin-right: 140px;
     margin-left: 140px;
+    @media (max-width: $desktop-width) {
+      display: none;
+    }
+  }
+}
+.numero {
+  @media (max-width: $desktop-width) {
+    display: none;
+  }
+}
+.step-cont {
+  @media (max-width: $desktop-width) {
+    display: flex;
+    justify-content: center;
   }
 }
