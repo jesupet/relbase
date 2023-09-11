@@ -73,6 +73,12 @@ h4 {
   color: $grey-color;
   line-height: 35px;
 }
+.subtittle-caract {
+  @extend %catamaran-font-medium;
+  color: $grey-color;
+  font-size: 25px;
+  line-height: 24px;
+}
 //Parrafos
 p {
   @extend %catamaran-font-medium;
