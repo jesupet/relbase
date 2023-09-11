@@ -11,20 +11,76 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-lg-auto text-end">
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="#">Inicio</a>
+              <router-link class="nav-link nav-text" to="/" exact>Inicio</router-link>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle nav-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a 
+              class="nav-link dropdown-toggle nav-text" 
+              href="#"
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false"
+              >
                 Características
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item nav-text" href="#">Ventas</a></li>
-                <li><a class="dropdown-item nav-text" href="#">Inventario</a></li>
-                <li><a class="dropdown-item nav-text" href="#">Punto de venta</a></li>
-                <li><a class="dropdown-item nav-text" href="#">Recaudación</a></li>
-                <li><a class="dropdown-item nav-text" href="#">Reportes</a></li>
-                <li><a class="dropdown-item nav-text" href="#">Canales Digitales</a></li>
-                <li><a class="dropdown-item nav-text" href="#">App Movil</a></li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/ventas" 
+                  
+                    >Ventas
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/inventario" 
+                  
+                    >Inventario
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/punto-de-venta"
+                  >
+                    Punto de venta
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/recaudacion"
+                  @click="handleDropdownItemClick('recaudacion')"
+                  :class="{ 'active-link': selectedMenuItem === 'recaudacion' }">
+                    Recaudación
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/reportes"
+                  >
+                    Reportes
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/canales-digitales"
+                  >
+                    Canales Digitales
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/app-movil"
+                  >
+                    App Movil
+                  </router-link>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -59,6 +115,27 @@ export default {
     PrePreNavbar,
     PreNavbar,
     RoundedBtn,
-  }
+  },
+  data() {
+    return {
+      isDropdownActive: false,
+      isDropdownItemSelected: false,
+      selectedMenuItem: '', // Almacena el elemento seleccionado
+    };
+  },
+  methods: {
+    toggleDropdown() {
+      if (!this.isDropdownActive) {
+        this.isDropdownActive = true;
+        this.isDropdownItemSelected = false;
+      } else {
+        this.isDropdownActive = false;
+      }
+    },
+    handleDropdownItemClick(menuItem) {
+      this.selectedMenuItem = menuItem; // Almacena el elemento seleccionado
+      this.isDropdownItemSelected = true;
+    },
+  },
 }
 </script>

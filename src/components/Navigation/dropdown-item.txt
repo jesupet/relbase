@@ -1,0 +1,77 @@
+<li class="nav-item dropdown">
+              <a 
+              class="nav-link dropdown-toggle nav-text" 
+              href="#"
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false"
+              :class="{ 'my-active-class': isDropdownActive || isDropdownItemSelected }"
+              @click="toggleDropdown">
+                Características
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/ventas" 
+                  @click="handleDropdownItemClick('ventas')"
+                  :class="{ 'active-link': selectedMenuItem === 'ventas' }"
+                    >Ventas
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/inventario" 
+                  @click="handleDropdownItemClick('inventario')"
+                  :class="{ 'active-link': selectedMenuItem === 'inventario' }"
+                    >Inventario
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/punto-de-venta"
+                  @click="handleDropdownItemClick('punto-de-venta')"
+                  :class="{ 'active-link': selectedMenuItem === 'punto-de-venta' }">
+                    Punto de venta
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/recaudacion"
+                  @click="handleDropdownItemClick('recaudacion')"
+                  :class="{ 'active-link': selectedMenuItem === 'recaudacion' }">
+                    Recaudación
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/reportes"
+                  @click="handleDropdownItemClick('reportes')"
+                  :class="{ 'active-link': selectedMenuItem === 'reportes' }">
+                    Reportes
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/canales-digitales"
+                  @click="handleDropdownItemClick('canales-digitales')"
+                  :class="{ 'active-link': selectedMenuItem === 'canales-digitales' }">
+                    Canales Digitales
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/app-movil"
+                  @click="handleDropdownItemClick('app-movil')"
+                  :class="{ 'active-link': selectedMenuItem === 'app-movil' }">
+                    App Movil
+                  </router-link>
+                </li>
+              </ul>
+            </li>

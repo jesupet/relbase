@@ -1,5 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeRelbase from '../views/HomeRelbase.vue'
+import VentasRelbase from '../views/caracteristicas/VentasRelbase.vue'
+import InventarioRb from '../views/caracteristicas/InventarioRb.vue'
+import AppMovilRb from '../views/caracteristicas/AppMovilRb.vue'
+import CanalesDigitalesRb from '../views/caracteristicas/CanalesDigitalesRb.vue'
+import PuntoVentaRb from '../views/caracteristicas/PuntoVentaRb.vue'
+import RecaudacionRb from '../views/caracteristicas/RecaudacionRb.vue'
+import ReportesRb from '../views/caracteristicas/ReportesRb.vue'
 
 const routes = [
   {
@@ -7,6 +14,42 @@ const routes = [
     name: 'home',
     component: HomeRelbase
   },
+  {
+    path: '/caracteristicas/ventas',
+    name: 'ventas',
+    component: VentasRelbase
+  },
+  {
+    path: '/caracteristicas/app-movil',
+    name: 'app-movil',
+    component: AppMovilRb
+  },
+  {
+    path: '/caracteristicas/canales-digitales',
+    name: 'canales-digitales',
+    component: CanalesDigitalesRb
+  },
+  {
+    path: '/caracteristicas/inventario',
+    name: 'inventario',
+    component: InventarioRb
+  },
+  {
+    path: '/caracteristicas/punto-de-venta',
+    name: 'punto-de-venta',
+    component: PuntoVentaRb
+  },
+  {
+    path: '/caracteristicas/recaudacion',
+    name: 'recaudacion',
+    component: RecaudacionRb
+  },
+  {
+    path: '/caracteristicas/reportes',
+    name: 'reportes',
+    component: ReportesRb
+  },
+
 ]
 
 const router = createRouter({

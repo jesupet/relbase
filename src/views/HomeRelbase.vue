@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavbarRelbase/>
+    
     <!--HEADER-->
     <div class="container-fluid bg-header">
       <header class="container">
@@ -111,27 +111,24 @@
       </section>
     </div>
     <!--- FOOTER --->
-    <FooterRelbase/>
+    
   </div>
 </template>
 
 <script>
-import NavbarRelbase from '../components/Navigation/NavbarRelbase.vue'
 import PlayBtn from '../components/PlayBtn.vue'
 import LinePretittle from '../components/LinePretittle.vue'
 import RoundedBtn from '../components/RoundedBtn.vue'
 import StepCard from '../components/StepCard.vue'
-import FooterRelbase from '../components/FooterRelbase.vue'
+
 
 export default {
   name: 'HomeRelbase',
   components:{
-    NavbarRelbase,
     PlayBtn,
     LinePretittle,
     RoundedBtn,
     StepCard,
-    FooterRelbase,
   }
 }
 </script>

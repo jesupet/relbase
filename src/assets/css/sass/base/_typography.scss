@@ -27,7 +27,7 @@ h4 {
 }
 .pre-titulo {
   @extend %catamaran-font-bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 40px;
   color: $grey-color;
 }
@@ -40,7 +40,7 @@ h4 {
 }
 .green-pre-titulo {
   @extend %catamaran-font-bold;
-  font-size: 12px;
+  font-size: 14px;
   color: $primary-color;
   line-height: 15px;
 }

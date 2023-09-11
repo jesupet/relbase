@@ -21,3 +21,13 @@
     margin-right: 6px;
   }
 }
+.nav-link.router-link-active,  .my-active-class{
+  color: $primary-color;
+  font-weight: 700;
+}
+.dropdown-item.router-link-active{
+  color: $orange-btn;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: transparent;
+}
