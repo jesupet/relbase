@@ -350,6 +350,35 @@ button {
 
 .main-sec {
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hr-caract {
+  border: 2px solid #556170;
+  border-radius: 2px;
+  width: 14px;
+  opacity: 1;
+}
+
+.hr-caract.der {
+  display: inline-block;
+}
+
+.main-ventas {
+  padding: 100px 0px;
+}
+
+.main-ventas .row {
+  padding-bottom: 100px;
+}
+
+.main-ventas h2 {
+  font-size: 35px;
+}
+
+.grey-sec {
+  background-color: rgba(201, 209, 218, 0.2);
+  height: 632px;
 }
 
 .bg-header {

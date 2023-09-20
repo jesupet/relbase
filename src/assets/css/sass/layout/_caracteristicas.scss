@@ -12,4 +12,29 @@
 }
 .main-sec {
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hr-caract {
+  border: 2px solid $grey-color;
+  border-radius: 2px;
+  width: 14px;
+  opacity: 1;
+  &.der {
+    display: inline-block;
+  }
+}
+
+//VENTAS
+.main-ventas {
+  padding: 100px 0px;
+  .row {
+    padding-bottom: 100px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+.grey-sec {
+  background-color: $light-grey;
+  height: 632px; 
 }
