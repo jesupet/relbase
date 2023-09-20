@@ -1,26 +1,26 @@
 [
   {
     "numero": "uno.svg",
-    "titulo": "Contrata",
-    "contenido": "Selecciona y contrata uno de nuestros planes de acuerdo a tu necesidad.",
+    "titulo": "Contratación",
+    "contenido": "Elige y contrata uno de nuestros planes de acuerdo a tus necesidades.",
     "icono": "contrata.png"
   },
   {
     "numero": "dos.svg",
-    "titulo": "Envíanos tus datos",
-    "contenido": "Debes enviarnos los datos de tu empresa más el certificado digital del representante legal, si no lo tienes nosotros hacemos la compra por ti (*).",
+    "titulo": "Envía tus datos",
+    "contenido": "Proporciona los detalles de tu empresa y, si no tienes un certificado digital del representante legal, nosotros nos encargamos de adquirirlo por ti* (* Servicio adicional disponible)",
     "icono": "datos.png"
   },
   {
     "numero": "tres.svg",
-    "titulo": "Certificación SII",
-    "contenido": "Con los datos de tu empresa comenzamos todo el proceso de certificación en el Servicio de Impuestos Internos.",
+    "titulo": "Certificación ante el SII",
+    "contenido": "Utilizando los datos de tu empresa, iniciamos el proceso de certificación en el Servicio de Impuestos Internos.",
     "icono": "sii.png"
   },
   {
     "numero": "cuatro.svg",
-    "titulo": "Emite",
-    "contenido": "Felicidades, tu negocio se encuentra digitalizado y puedes comenzar emitir documentos electrónicos con relBase.",
+    "titulo": "Emisión",
+    "contenido": "¡Felicidades! Tu negocio está ahora digitalizado y listo para comenzar a emitir documentos electrónicos con relBase.",
     "icono": "emite.png"
   }
 ]

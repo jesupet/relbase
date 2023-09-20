@@ -97,10 +97,10 @@
       <section id="mapa" class="container">
         <div class="row">
           <div class="col-xl-5 col-md-6 col-12 box-text-map">
-            <p class="white-pre-titulo">+2.000 empresas y emprendedores</p>
-            <h2 class="mt-3">Confían en nosotros</h2>
+            <p class="white-pre-titulo">Más de 2.000 empresas y emprendedores</p>
+            <h2 class="mt-3">Confían en nosotros para impulsar su transformación digital</h2>
             <p class="medium-p-white mt-4 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Mira cómo relBase ayuda a las empresas y emprendedores a tener éxito. ¡Únete a nuestra comunidad y lleva tu negocio al siguiente nivel!
             </p>
             <RoundedBtn :buttonText="'Ver testimonios'"/>
           </div>
