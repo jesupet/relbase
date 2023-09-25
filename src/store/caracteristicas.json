@@ -12,18 +12,6 @@
     "contenido": "Para que puedas llevar el seguimiento de todas las ventas y/o salida de productos fácilmente, también se utiliza como ticket de caja."
   },
   {
-    "titulo": "Cesión de documentos a terceros (factoring)",
-    "contenido": "Útil para mejorar la liquidez de la empresa, ya que le permite obtener un adelanto del pago de las facturas pendientes, lo que puede ayudar a cubrir gastos y a financiar el crecimiento del negocio."
-  },
-  {
-    "titulo": "Facturación masiva de guías de despacho",
-    "contenido": "Para agilizar el proceso de facturación cuando se emiten varías guías de despacho a un mismo cliente."
-  },
-  {
-    "titulo": "Envío de documentos por email",
-    "contenido": "Todos los documentos emitidos con relBase pueden ser enviados por mail directamente e inmediatamente después de ser emitidos sin necesidad de salir del sistema."
-  },
-  {
     "titulo": "Generación de órdenes de trabajo",
     "contenido": "Para enviar a realizar un trabajo y se realice de manera eficiente y efectiva, una herramienta valiosa para la gestión del tiempo y los recursos.    "
   },
@@ -36,8 +24,20 @@
     "contenido": "Documentos requeridos para llevar a cabo y legalizar una transacción comercial de bienes o servicios entre un país de origen y un país de destino."
   },
   {
+    "titulo": "Cesión de documentos a terceros (factoring)",
+    "contenido": "Útil para mejorar la liquidez de la empresa, ya que le permite obtener un adelanto del pago de las facturas pendientes, lo que puede ayudar a cubrir gastos y a financiar el crecimiento del negocio."
+  },
+  {
+    "titulo": "Facturación masiva de guías de despacho",
+    "contenido": "Para agilizar el proceso de facturación cuando se emiten varías guías de despacho a un mismo cliente."
+  },
+  {
     "titulo": "Diseño personalizado de documentos impresos",
     "contenido": "Tu logo en tus documentos."
+  },
+  {
+    "titulo": "Envío de documentos por email",
+    "contenido": "Todos los documentos emitidos con relBase pueden ser enviados por mail directamente e inmediatamente después de ser emitidos sin necesidad de salir del sistema."
   },
   {
     "titulo": "Impuestos adicionales",

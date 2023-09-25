@@ -139,7 +139,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-12">
-              <div class="card">
+              <div class="card card-venta">
                 <div class="card-body">
                   <div>
                     <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
@@ -155,7 +155,7 @@
               </div>
             </div>
              <div class="col-lg-6 col-12">
-              <div class="card">
+              <div class="card card-venta">
                 <div class="card-body">
                   <div>
                     <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
@@ -173,7 +173,7 @@
           </div>
            <div class="row">
             <div class="col-lg-6 col-12">
-              <div class="card">
+              <div class="card card-venta">
                 <div class="card-body">
                   <div>
                     <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
@@ -189,7 +189,7 @@
               </div>
             </div>
              <div class="col-lg-6 col-12">
-              <div class="card">
+              <div class="card card-venta">
                 <div class="card-body">
                   <div>
                     <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">

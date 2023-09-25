@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "Stock en tiempo real",
+    "contenido": "Monitoreo de inventario de un producto en tiempo real, a medida que se producen las transacciones de venta. Esto permite tener una visión precisa y actualizada de cuántos productos están disponibles en bodega en cualquier momento dado."
+  },
+  {
+    "titulo": "Ajustes de inventario",
+    "contenido": "Registro de recepción y consumo reflejando cambios en la cantidad de productos en existencia."
+  },
+  {
+    "titulo": "Valorización del inventario (costo promedio ponderado)",
+    "contenido": "Proceso de asignar un valor monetario al inventario de una empresa para reflejar su costo en un momento determinado. Esta valoración es muy relevante ya que el inventario es uno de los activos más importantes de una empresa y su valor puede afectar significativamente los estados financieros y la rentabilidad de la empresa."
+  },
+  {
+    "titulo": "Alertas de stock y reposición",
+    "contenido": "Permite garantizar que los niveles de inventario se mantengan en un rango adecuado y se eviten faltantes o excesos de inventario."
+  },
+  {
+    "titulo": "Transferencia entre bodegas",
+    "contenido": "Movimiento físico de inventario de una bodega a otra dentro de una misma empresa. Este proceso puede ser necesario por diversas razones, como la redistribución de inventario para satisfacer la demanda de ciertos productos en una ubicación específica, la consolidación de inventario para reducir costos de almacenamiento o la reorganización del inventario para mejorar la eficiencia en la gestión."
+  },
+  {
+    "titulo": "Lotes y series",
+    "contenido": "Utilizados en la gestión de inventarios para controlar y realizar un seguimiento más preciso del inventario y garantizar la calidad y seguridad de los productos. Además, permiten a la empresa rastrear cualquier problema que surja con un producto específico y realizar retiros de manera más rápida y precisa si es necesario."
+  },
+  {
+    "titulo": "Reporte de reposición de productos",
+    "contenido": "Entrega información sobre el nivel de inventario de cada producto y recomienda la cantidad de productos que se deben pedir para reponer el inventario para de esta manera asegurarse de que la empresa siempre tenga suficiente inventario para satisfacer la demanda de los clientes, pero sin tener un exceso de inventario que genera costos innecesarios."
+  }
+]
