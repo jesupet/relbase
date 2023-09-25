@@ -2,8 +2,8 @@
 <div class="green-bg">
   <footer>
     <div class="container">
-      <div class="row ">
-      <div class="col-xl-6 col-md-12 text-center step-cont">
+      <div class="row">
+      <div class="col-xl-6 col-md-12 text-center d-flex justify-content-center">
         <div class="card text-left footer-card">
           <div class="card-body">
             <div class="row">
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-6 col-md-12 step-cont">
+      <div class="col-xl-6 col-md-12 d-flex justify-content-center">
         <div class="card text-left footer-card">
           <div class="card-body">
             <div class="row">

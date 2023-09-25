@@ -1,9 +1,13 @@
 .icono-pasos {
   width: 60px;
 }
+.step-cont { 
+  .card {
+    min-height: 327px;
+  }
+}
 .card {
-  width: 271px;
-  height: 327px;
+
   padding: 43px 16px;
   margin: 0px 16px 32px;
   border-radius: 20px;
