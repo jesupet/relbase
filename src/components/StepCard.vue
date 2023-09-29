@@ -1,17 +1,16 @@
 <template>
-<div class="row text-center">
-  <div class="col-xl-3 col-12 step-cont" v-for="(pasos, index) in pasos" :key="index">
-    <img :src="getSvgPath(pasos.numero)" alt="" class="numero">
-    <div class="card align-items-center">
-      <img :src="getImagePath(pasos.icono)" class="card-img-top icono-pasos" alt="...">
-      <div class="card-body">
-        <p class="titulo-gris">{{pasos.titulo}}</p>
-        <p class="card-text medium-p">{{pasos.contenido}}</p>
+  <div class="row text-center">
+    <div class="col-xl-3 col-12 step-cont" v-for="(pasos, index) in pasos" :key="index">
+      <img :src="getSvgPath(pasos.numero)" alt="" class="numero">
+      <div class="card align-items-center">
+        <img :src="getImagePath(pasos.icono)" class="card-img-top icono-pasos" alt="...">
+        <div class="card-body">
+          <p class="titulo-gris">{{pasos.titulo}}</p>
+          <p class="card-text medium-p">{{pasos.contenido}}</p>
+        </div>
       </div>
     </div>
-</div>
-</div>
-  
+  </div>
 </template>
 
 <script>

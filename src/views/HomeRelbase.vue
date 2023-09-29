@@ -54,8 +54,8 @@
             <p class="pre-titulo">Pensado en pymes y emprendedores</p>
           </div>
           <h2>Simplificamos la forma en que venden las empresas.</h2>
-          <div class="row mt-5 mb-5">
-            <div class="col-6">
+          <div class="row mt-4 mb-5">
+            <div class="col-sm-6 col-12 mt-3">
               <img src="../assets/vectors/codigo.svg" alt="icono codigo">
               <p class="titulo-gris">
                 relBase
@@ -64,7 +64,7 @@
                 es el software de ventas con boleta y factura electrónica, 100% web pensado para Pymes y emprendedores.
               </p>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-12 mt-3">
               <img src="../assets/vectors/monitor.svg" alt="icono codigo">
               <p class="titulo-gris">
                 Crea documentos
@@ -85,11 +85,14 @@
       </p>
       <LinePretittle :stroke="'#556170'"/>
       <h3>¿Cómo me cambio a Relbase?</h3>
-      <div class="diagram">
+      <div class="diagram d-xl-block d-none">
         <div class="dotted-line">
           <hr>
         </div>
         <StepCard/>    
+      </div>
+      <div class="diagram">
+        <StepCarousel/>
       </div>
     </section>
     <!--SECTION 3: MAPA-->
@@ -120,6 +123,7 @@ import PlayBtn from '../components/PlayBtn.vue'
 import LinePretittle from '../components/LinePretittle.vue'
 import RoundedBtn from '../components/RoundedBtn.vue'
 import StepCard from '../components/StepCard.vue'
+import StepCarousel from '../components/StepCarousel.vue'
 
 
 export default {
@@ -129,6 +133,7 @@ export default {
     LinePretittle,
     RoundedBtn,
     StepCard,
+    StepCarousel
   }
 }
 </script>

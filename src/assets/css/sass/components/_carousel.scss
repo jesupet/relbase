@@ -1,0 +1,26 @@
+.carousel-indicators [data-bs-target] {
+  background-color: $primary-color; // Cambia el color a verde
+  border: none; // Elimina cualquier borde si es necesario
+  width: 10px; // Ajusta el ancho según tus preferencias
+  height: 10px; // Ajusta la altura según tus preferencias
+  margin: 0 5px; // Añade un margen entre los indicadores si es necesario
+  opacity: 0.5;
+  border-radius: 50%; // Puedes ajustar la opacidad según tus preferencias
+  // Agrega otros estilos según sea necesario
+}
+
+.green-ind.active {
+  opacity: 1; // Cambia la opacidad del indicador activo si es necesario
+}
+.carousel-card {
+  width: 300px;
+  height: 350px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.carousel-cont {
+  display: grid;
+  justify-content: center;
+}
