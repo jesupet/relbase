@@ -7,11 +7,11 @@
         <div class="card text-left footer-card">
           <div class="card-body">
             <div class="row">
-              <div class="col-md-6 col-12 text-md-start text-center">
+              <div class="col-md-6 col-12 text-start">
                 <p class="titulo-gris-footer">¿Listo para aumentar tus ventas?</p>
               </div>
-              <div class="col-md-6 col-12 text-md-end text-center mt-md-0 mt-3">
-                <RoundedBtn :buttonText="'Contratar'" class="mb-md-2"/>
+              <div class="col-md-6 col-12 text-md-end text-start mt-md-0 mt-3">
+                <RoundedBtn :buttonText="'Contratar'" class="mb-2"/>
                 <RoundedBtn :buttonText="'Ver demostración'" :class="'white-btn-primary'"/>
               </div>
             </div>
@@ -22,12 +22,12 @@
         <div class="card text-left footer-card">
           <div class="card-body">
             <div class="row">
-              <div class="col-md-7 col-12 text-md-start text-center">
+              <div class="col-md-7 col-12 text-start">
                 <p class="titulo-gris-footer">Estamos aquí para ayudarte</p>
-                <p class="footer-p d-md-block d-none">visita nuestra sección de preguntas frecuentes</p>
+                <p class="footer-p">visita nuestra sección de preguntas frecuentes</p>
               </div>
-              <div class="col-md-5 col-12 text-md-end text-center mt-md-0 mt-3">
-                <RoundedBtn :buttonText="'Ver demostración'" :class="'white-btn-primary me-0 ms-0'"/>
+              <div class="col-md-5 col-12 text-md-end text-start mt-md-0 mt-3 mt-md-0 mt-5">
+                <RoundedBtn :buttonText="'Ver preguntas'" :class="'white-btn-primary me-0 ms-0'"/>
                 <p class="footer-p mt-md-3 mt-1 text-md-end">o llámanos al +56 2 2869 1771</p>
               </div>
             </div>

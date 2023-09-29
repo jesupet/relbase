@@ -16,7 +16,7 @@
 }
 .footer-card {
   width: 90%;
-  height: 202px;
+  min-height: 202px;
   margin: 78px 0px 78px 0px;
   padding: 35px;
   .card-body {
@@ -32,10 +32,11 @@
     width: 80%;
     margin: 32px 0px;
   }
-  @media (max-width: $tablet-width){
-    width: 80%;
+  @media (max-width: $phone-width){
+    width: 100%;
     margin: 32px 0px;
     padding: 24px ;
+    height: fit-content;
     .card-body {
       flex-direction: column;
     }
