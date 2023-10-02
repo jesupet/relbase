@@ -5,11 +5,14 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="@/assets/grey_logo.png" alt="logo relbase" class="navbar-logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-lg-auto text-end">
+        <div class="offcanvas offcanvas-end" id="navbarNavDropdown">
+          <div class="text-end p-4 d-lg-none">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <ul class="navbar-nav ms-lg-auto text-l-end text-center">
             <li class="nav-item">
               <router-link class="nav-link nav-text" to="/" exact>Inicio</router-link>
             </li>
@@ -23,12 +26,11 @@
               >
                 Características
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
                   <router-link 
                   class="dropdown-item nav-text" 
                   to="/caracteristicas/ventas" 
-                  
                     >Ventas
                   </router-link>
                 </li>
@@ -95,8 +97,12 @@
             <li class="nav-item">
               <a class="nav-link nav-text" href="#">Recursos</a>
             </li>
-            <RoundedBtn :buttonText="'Iniciar Sesión'" :class="'white-btn-primary'"/>   
-            <RoundedBtn :buttonText="'Ver Demostración'"/>      
+            <li>
+              <RoundedBtn :buttonText="'Iniciar Sesión'" :class="'white-btn-primary btn-nav'"/>   
+            </li>
+            <li>
+              <RoundedBtn :buttonText="'Ver Demostración'" :class="'btn-nav'"/> 
+            </li>
           </ul>
         </div>
       </div>

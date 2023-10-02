@@ -254,6 +254,12 @@ p {
   margin-right: 6px;
 }
 
+@media (max-width: 992px) {
+  .nav-item a {
+    color: #fff;
+  }
+}
+
 .nav-link.router-link-active, .my-active-class {
   color: #C9DC00;
   font-weight: 700;
@@ -265,6 +271,26 @@ p {
 
 .dropdown-item:hover, .dropdown-item:focus {
   background-color: transparent;
+}
+
+@media (max-width: 992px) {
+  .btn-nav {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .dropdown-item {
+    text-align: center;
+  }
+}
+
+#navbarNavDropdown.offcanvas {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding-top: 100px;
+}
+
+.btn-close-white {
+  text-align: right;
 }
 
 .btn-primary {

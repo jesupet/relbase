@@ -20,6 +20,12 @@
     margin-left: 6px;
     margin-right: 6px;
   }
+  @media (max-width: $big-tablet-width){
+    a {
+      color: $white-color;
+    }
+    
+  }
 }
 .nav-link.router-link-active,  .my-active-class{
   color: $primary-color;
@@ -30,4 +36,22 @@
 }
 .dropdown-item:hover, .dropdown-item:focus {
   background-color: transparent;
+}
+@media (max-width: $big-tablet-width){
+  .btn-nav {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .dropdown-item {
+    text-align: center;
+  }
+}
+#navbarNavDropdown.offcanvas {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: $white-color;
+  padding-top: 100px;
+}
+
+.btn-close-white {
+  text-align: right;
 }
