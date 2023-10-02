@@ -281,12 +281,14 @@ p {
   .dropdown-item {
     text-align: center;
   }
+  #navbarNavDropdown.offcanvas {
+    padding-top: 100px;
+  }
 }
 
 #navbarNavDropdown.offcanvas {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
-  padding-top: 100px;
 }
 
 .btn-close-white {

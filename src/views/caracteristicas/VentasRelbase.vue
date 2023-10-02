@@ -5,7 +5,7 @@
       <h1>Ventas</h1>
     </div>
     <div class="container-fluid main-sec">
-      <p class="subtittle-caract text-center">
+      <p class="subtittle-caract text-center mx-3">
         Con relBase gestiona todo tu proceso de venta.
       </p>
       <div class="main-ventas container">
@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="grey-sec container-fluid">
+      <div class="grey-sec container-fluid d-lg-block d-none">
         <div class="container">
           <div class="row">
           <div class="col-4 text-end row">
@@ -102,6 +102,9 @@
           </div>
         </div>
         </div>
+      </div>
+      <div class="grey-sec container-fluid d-lg-none d-block">
+        <CarouselVentas :class="'container'"/>
       </div>
       <div class="main-ventas container">
         <div class="row">
@@ -229,9 +232,13 @@
 <script>
 import { mapState } from 'pinia'
 import { useCounterStore } from '../../store/index'
+import CarouselVentas from '../../components/CarouselVentas.vue'
 
 export default {
   name: 'VentasRelbase',
+  components: {
+    CarouselVentas,
+  },
   computed: {
     ...mapState(useCounterStore, ['caracteristicas'])
   },
