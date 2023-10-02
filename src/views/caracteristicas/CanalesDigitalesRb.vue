@@ -6,7 +6,7 @@
     </div>
     <div class="main-ventas container">
       <div class="row">
-        <div class="col-xl-6 col-12 izq">
+        <div class="col-xl-6 col-12 izq order-xl-0 order-1">
           <h2>Vende en múltiples canales y mantén actualizado el stock en tiempo real.</h2>
           <hr class="hr-caract">
           <ul class="medium-p">
@@ -28,8 +28,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-xl-6 col-12 pt-xl-0 pt-5 text-end">
-          <img src="../../assets/diagrama.png" alt="">
+        <div class="col-xl-6 col-12 mockup-vtas order-xl-1 order-0">
+          <img src="../../assets/diagrama.png" alt="" class="img-fluid">
         </div>
       </div>
     </div>

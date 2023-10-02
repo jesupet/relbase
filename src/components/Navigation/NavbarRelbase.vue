@@ -26,7 +26,7 @@
               >
                 Características
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
+              <ul class="dropdown-menu">
                 <li>
                   <router-link 
                   class="dropdown-item nav-text" 

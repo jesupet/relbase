@@ -6,7 +6,7 @@
     </div>
     <div class="main-ventas container">
       <div class="row">
-        <div class="col-xl-6 col-12">
+        <div class="col-xl-6 col-12 order-xl-0 order-1">
           <h2>Descarga nuestra app y vende a través de nuestro punto de venta móvil.</h2>
           <hr class="hr-caract">
           <ul class="medium-p list">
@@ -41,8 +41,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-xl-6 col-12 pt-xl-0 pt-5 text-end">
-          <img src="../../assets/diagrama.png" alt="">
+        <div class="col-xl-6 col-12 mockup-vtas order-xl-1 order-0">
+          <img src="../../assets/diagrama.png" alt="" class="img-fluid">
         </div>
       </div>
     </div>
