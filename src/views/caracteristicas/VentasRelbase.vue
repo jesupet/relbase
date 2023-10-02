@@ -10,33 +10,35 @@
       </p>
       <div class="main-ventas container">
         <div class="row">
-          <div class="col-xl-6 col-12 izq">
+          <div class="col-xl-6 col-12 izq order-xl-0 order-1">
             <h2>{{caracteristicas[0].titulo}}</h2>
             <hr class="hr-caract">
             <p class="medium-p">{{caracteristicas[0].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 text-end">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 mockup-vtas order-xl-1 order-0">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
+        <hr class="d-xl-none d-block vtas-line">
         <div class="row">
-          <div class="col-xl-6 col-12 order-2 text-end">
+          <div class="col-xl-6 col-12 order-2 text-xl-end text-start">
             <h2>{{caracteristicas[1].titulo}}</h2>
             <hr class="hr-caract der">
             <p class="medium-p">{{caracteristicas[1].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 order-1">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 mockup-vtas order-1">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
+        <hr class="d-xl-none d-block vtas-line">
         <div class="row">
-          <div class="col-xl-6 col-12 izq">
+          <div class="col-xl-6 col-12 izq order-xl-0 order-1">
             <h2>{{caracteristicas[2].titulo}}</h2>
             <hr class="hr-caract">
             <p class="medium-p">{{caracteristicas[2].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 text-end">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 mockup-vtas order-xl-1 order-0">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
       </div>
@@ -54,7 +56,7 @@
               </p>
             </div>
             <div class="col-2">
-              <img src="../../assets/vectors/doc-icon.svg" alt="" class="m-3">
+              <img src="../../assets/vectors/doc-icon.svg" alt="" class="m-3 img-fluid">
             </div>          
            <div class="col-10">
               <p class="titulo-gris-footer">
@@ -66,7 +68,7 @@
               </p>
             </div>
             <div class="col-2">
-              <img src="../../assets/vectors/doc-icon.svg" alt="" class="m-3">
+              <img src="../../assets/vectors/doc-icon.svg" alt="" class="m-3 img-fluid">
             </div>       
           </div>
           <div class="col-4">
@@ -74,7 +76,7 @@
           </div>
           <div class="col-4 text-start row">
             <div class="col-2">
-              <img src="../../assets/vectors/doc-icon.svg" alt="" class="mt-3">
+              <img src="../../assets/vectors/doc-icon.svg" alt="" class="mt-3 img-fluid">
             </div>
             <div class="col-10">
               <p class="titulo-gris-footer">
@@ -86,7 +88,7 @@
               </p>
             </div>
             <div class="col-2">
-              <img src="../../assets/vectors/doc-icon.svg" alt="" class="mt-3">
+              <img src="../../assets/vectors/doc-icon.svg" alt="" class="mt-3 img-fluid">
             </div>
             <div class="col-10">
               <p class="titulo-gris-footer">
@@ -100,41 +102,53 @@
           </div>
         </div>
         </div>
-        
-        
       </div>
       <div class="main-ventas container">
         <div class="row">
-          <div class="col-xl-6 col-12 order-2 text-end">
+          <div class="col-xl-6 col-12 order-xl-0 order-1">
             <h2>{{caracteristicas[7].titulo}}</h2>
             <hr class="hr-caract der">
            <p class="medium-p">{{caracteristicas[7].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 order-1">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 order-xl-1 order-0 mockup-vtas">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
+        <hr class="d-xl-none d-block vtas-line">
         <div class="row">
-          <div class="col-xl-6 col-12 izq">
+          <div class="col-xl-6 col-12 izq order-2 text-xl-end text-start">
             <h2>{{caracteristicas[8].titulo}}</h2>
             <hr class="hr-caract">
             <p class="medium-p">{{caracteristicas[8].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 text-end">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 mockup-vtas order-1">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
+        <hr class="d-xl-none d-block vtas-line">
         <div class="row">
-          <div class="col-xl-6 col-12 order-2 text-end">
+          <div class="col-xl-6 col-12 order-xl-0 order-1">
             <h2>{{caracteristicas[9].titulo}}</h2>
             <hr class="hr-caract der">
             <p class="medium-p">{{caracteristicas[9].contenido}}</p>
           </div>
-          <div class="col-xl-6 col-12 pt-xl-0 pt-5 order-1">
-            <img src="../../assets/diagrama.png" alt="">
+          <div class="col-xl-6 col-12 order-xl-1 order-0 mockup-vtas">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <hr class="d-xl-none d-block vtas-line">
+        <div class="row">
+          <div class="col-xl-6 col-12 izq order-2 text-xl-end text-start">
+            <h2>{{caracteristicas[10].titulo}}</h2>
+            <hr class="hr-caract">
+            <p class="medium-p">{{caracteristicas[10].contenido}}</p>
+          </div>
+          <div class="col-xl-6 col-12 mockup-vtas order-1">
+            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
           </div>
         </div>
       </div>
+      <!-- CARDS SIN USAR
       <div class="grey-sec container-fluid">
         <div class="container">
           <div class="row">
@@ -205,10 +219,9 @@
               </div>
             </div>
           </div>
-        </div>
-        
-        
+        </div>      
       </div>
+      -->
     </div>
   </div>
 </template>
