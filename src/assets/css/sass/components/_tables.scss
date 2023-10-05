@@ -1,0 +1,22 @@
+.price-table {
+  th {
+    width: 60%;
+    padding-left: 32px;
+  };
+  td {
+    text-align: end;
+    padding-right: 24px;
+  }
+}
+.table{
+  border-collapse: collapse;
+  max-width: 750px;
+}
+.table th {
+  border-right: none;
+  vertical-align: middle;
+}
+.table td {
+  border-left: none;
+  vertical-align: middle;
+}

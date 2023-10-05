@@ -25,9 +25,20 @@
       <InfoPlan :index="selectedPlanIndex" :plan="planes[selectedPlanIndex]"/>
     </div>
     <!--DESKTOP-->
-    <div class="d-none d-lg-block">
-      
+    <div class="d-none d-lg-block container desk-price">
+      <div class="row">
+        <div class="col-4">
+          <PriceCard :index="0" :plan="planes[0]"/>
+        </div>
+        <div class="col-4">
+          <PriceCard :index="1" :plan="planes[1]"/>
+        </div>
+        <div class="col-4">
+          <PriceCard :index="2" :plan="planes[2]"/>
+        </div>
+      </div>
     </div>
+    <hr class="grey-line d-block d-lg-none">
     <div class="container pt-5">
       <p class="precio-subt py-4">
         Agrega otros servicios a tu plan
@@ -89,11 +100,13 @@
 import { mapState } from 'pinia'
 import { useCounterStore } from '../store/index'
 import InfoPlan from '../components/InfoPlan.vue'
+import PriceCard from '../components/PriceCard.vue'
 
 export default {
   name: 'PreciosRelbase',
   components: {
     InfoPlan,
+    PriceCard
   },
   computed: {
     ...mapState(useCounterStore, ['planes', 'planesIncluyen'])

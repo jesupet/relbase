@@ -12,24 +12,34 @@
     color: $grey-color;
   }
 }
-.caract-cont {
-  border-bottom: 1px solid $grey-color;
+.grey-line {
+  color: $grey-color;
 }
 .active-link {
   background-color: $primary-color;
   color: $white-color;
   border: transparent;
 }
-.price-table {
-  th {
-    width: 60%;
-    padding-left: 32px;
-  };
-  td {
-    text-align: end;
-    padding-right: 24px;
-  }
-}
 .green-check {
   padding-right: 0.6em;
+  padding-left: 0.4em;
+}
+.desk-price {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.price-card, .card-body {
+  padding: 0px;
+}
+.price-card .card-header {
+  background-color: $primary-color;
+  color: $white-color;
+  text-align: center;
+  @extend %catamaran-font-bold;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.price-card {
+  min-height: 1236.5px;
 }

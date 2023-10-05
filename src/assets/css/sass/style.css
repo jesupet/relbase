@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;700;800&family=Open+Sans:wght@400;700&display=swap");
-h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-titulo, .white-subtittle, .titulo-gris-footer, .btn-plans a {
+h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-titulo, .white-subtittle, .titulo-gris-footer, .btn-plans a, .price-card .card-header {
   font-family: "Catamaran", sans-serif;
   font-weight: 800;
 }
@@ -424,6 +424,31 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.price-table th {
+  width: 60%;
+  padding-left: 32px;
+}
+
+.price-table td {
+  text-align: end;
+  padding-right: 24px;
+}
+
+.table {
+  border-collapse: collapse;
+  max-width: 750px;
+}
+
+.table th {
+  border-right: none;
+  vertical-align: middle;
+}
+
+.table td {
+  border-left: none;
+  vertical-align: middle;
 }
 
 .bg-header {
@@ -881,8 +906,8 @@ header .subtittle {
   color: #556170;
 }
 
-.caract-cont {
-  border-bottom: 1px solid #556170;
+.grey-line {
+  color: #556170;
 }
 
 .active-link {
@@ -891,17 +916,30 @@ header .subtittle {
   border: transparent;
 }
 
-.price-table th {
-  width: 60%;
-  padding-left: 32px;
-}
-
-.price-table td {
-  text-align: end;
-  padding-right: 24px;
-}
-
 .green-check {
   padding-right: 0.6em;
+  padding-left: 0.4em;
+}
+
+.desk-price {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.price-card, .card-body {
+  padding: 0px;
+}
+
+.price-card .card-header {
+  background-color: #C9DC00;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+.price-card {
+  min-height: 1236.5px;
 }
 /*# sourceMappingURL=style.css.map */
