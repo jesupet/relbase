@@ -1,0 +1,35 @@
+.btn-plans {
+  margin-top: 48px;
+  .col {
+    border: 1px solid #D9D9D9;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+  }
+  a {
+    @extend %catamaran-font-bold;
+    font-size: 18px;
+    color: $grey-color;
+  }
+}
+.caract-cont {
+  border-bottom: 1px solid $grey-color;
+}
+.active-link {
+  background-color: $primary-color;
+  color: $white-color;
+  border: transparent;
+}
+.price-table {
+  th {
+    width: 60%;
+    padding-left: 32px;
+  };
+  td {
+    text-align: end;
+    padding-right: 24px;
+  }
+}
+.green-check {
+  padding-right: 0.6em;
+}

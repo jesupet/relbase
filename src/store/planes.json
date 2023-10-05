@@ -1,0 +1,78 @@
+[  
+  {
+    "nombrePlan": "despegue",
+    "general" : 
+      {
+        "precio": "1 UF + iva/mes",
+        "detallePrecio": "Inicial: 1 UF + iva (implementación)",
+        "limite": "Hasta 1.000 DTE mensual",
+        "usuarios": "10 usuarios",
+        "productos": "20.000 productos (SKU)"
+      }
+    ,
+    "caracteristicas": [
+      "Control de stock e inventario", 
+      "Punto de venta",
+      "Notas de ventas",
+      "Órdenes de compra",
+      "Listas de precios",
+      "Impuestos adicionales", 
+      "1 sucursal",
+      "1 bodega"
+    ]
+  },
+  {
+    "nombrePlan": "pyme",
+    "general" : 
+      {
+        "precio": "1,5 UF + iva/mes",
+        "detallePrecio": "Inicial: 1 UF + iva (implementación)",
+        "limite": "Hasta 2.000 DTE mensual",
+        "usuarios": "15 usuarios",
+        "productos": "20.000 productos (SKU)"
+      }
+    ,
+    "caracteristicas": [
+      "Boleta y factura electrónica",
+      "Control de stock e inventario", 
+      "Punto de venta",
+      "Notas de ventas",
+      "Órdenes de compra",
+      "Listas de precios",
+      "Impuestos adicionales", 
+      "1 sucursal",
+      "Bodegas ilimitadas",
+      "Documentos de exportación",
+      "Órdenes de trabajo",
+      "Facturación recurrente",
+      "Lotes y series para productos"
+    ]
+  },
+  {
+    "nombrePlan": "Corporativo",
+    "general" : 
+      {
+        "precio": "2,5 UF + iva/mes",
+        "detallePrecio": "Inicial: 1 UF + iva (implementación)",
+        "limite": "Hasta 4.000 DTE mensual",
+        "usuarios": "20 usuarios",
+        "productos": "20.000 productos (SKU)"
+      }
+    ,
+    "caracteristicas": [
+      "Boleta y factura electrónica",
+      "Control de stock e inventario", 
+      "Punto de venta",
+      "Notas de ventas",
+      "Órdenes de compra",
+      "Listas de precios",
+      "Impuestos adicionales", 
+      "1 sucursal",
+      "Bodegas ilimitadas",
+      "Documentos de exportación",
+      "Órdenes de trabajo",
+      "Facturación recurrente",
+      "Lotes y series para productos"
+    ]
+  }
+]  

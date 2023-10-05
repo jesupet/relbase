@@ -1,6 +1,5 @@
 <template>
-  <div>
-    
+  <div>   
     <!--HEADER-->
     <div class="container-fluid bg-header">
       <header class="container">

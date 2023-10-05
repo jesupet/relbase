@@ -86,7 +86,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text" aria-current="page" href="#">Precios</a>
+              <router-link class="nav-link nav-text" to="/precios" exact>Precios</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-text" href="#">Preguntas Frecuentes</a>

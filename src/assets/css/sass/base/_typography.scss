@@ -79,6 +79,18 @@ h4 {
   font-size: 25px;
   line-height: 24px;
 }
+.precio-titulo {
+  font-size: 20px;
+  @extend %catamaran-font-semibold;
+  color: $grey-color;
+  line-height: 25px;
+}
+.precio-subt {
+  @extend %catamaran-font-semibold;
+  font-size: 25px;
+  line-height: 30px;
+  color: $grey-color;
+}
 //Parrafos
 p {
   @extend %catamaran-font-medium;
@@ -114,6 +126,18 @@ p {
 .footer-p {
   @extend %little-p;
   font-size: 14px;
+}
+.precio-p {
+  @extend %catamaran-font-light;
+  font-size: 15px;
+  color: $grey-color;
+  line-height: 24px;
+}
+.table-price {
+  @extend %catamaran-font-mediumplus;
+  font-size: 17px;
+  color: $grey-color;
+  line-height: 36px;
 }
 //Navbar
 .nav-text {
