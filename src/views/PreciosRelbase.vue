@@ -87,11 +87,11 @@
       </table>
     </div>
     <div class="container my-5">
-      <p>Para contratar planes superiores contáctanos al correo electrónico contacto@relbase.cl.</p>
+      <p>Para contratar planes superiores contáctanos al correo electrónico <a class="mail-link" href="mailto: contacto@relbase.cl">contacto@relbase.cl</a>.</p>
       <p class="my-4">(*) Suspensión del servicio previo aviso de 30 días corridos</p>
       <p class="precio-titulo">POLÍTICA DEVOLUCIÓN: </p>
       <p class="mt-3">Desde la fecha de contratación de un plan, tienes hasta 48 horas para solicitar el reembolso de tu dinero. Aquellos servicios que ya fueron prestados, por ejemplo, certificación ante el SII, compra del certificado digital, traspaso o carga de información, comisiones por cargo entre otros, serán descontados del monto a reembolsar.</p>
-      <p class="my-4">Para solicitar un reembolso debes solicitarlo a contacto@relbase.cl</p>
+      <p class="my-4">Para solicitar un reembolso debes solicitarlo a <a class="mail-link" href="mailto: contacto@relbase.cl">contacto@relbase.cl</a>.</p>
     </div>
   </div>
 </template>

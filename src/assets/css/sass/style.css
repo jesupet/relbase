@@ -942,4 +942,13 @@ header .subtittle {
 .price-card {
   min-height: 1236.5px;
 }
+
+.caract-cont {
+  padding-left: 25px;
+}
+
+.mail-link {
+  text-decoration: underline;
+  color: #C9DC00;
+}
 /*# sourceMappingURL=style.css.map */
