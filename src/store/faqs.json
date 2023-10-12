@@ -1,0 +1,82 @@
+[
+  {
+    "pregunta": "¿Cuánto dura el proceso de postulación al SII?",
+    "respuesta": "Para boleta y factura electrónica hasta 5 días hábiles."
+  },
+  {
+    "pregunta": "¿Qué documentos electrónicos emite la plataforma?",
+    "respuesta": "Actualmente se emiten factura electrónica de venta, factura electrónica exenta o no afecta de venta, factura de compra electrónica, guía de despacho electrónica, nota de crédito electrónica, nota de débito electrónica, boleta electrónica de venta, boleta electrónica exenta o no afecta de venta, factura electrónica de exportación, nota de crédito electrónica de exportación y nota de débito electrónica de exportación."
+  },
+  {
+    "pregunta": "¿Es posible emitir boletas electrónicas con relBase y facturas electrónicas con otro proveedor?",
+    "respuesta": "No, todos los documentos electrónicos deben ser emitidos desde relBase sin excepción."
+  },
+  {
+    "pregunta": "¿Es posible acceder desde cualquier computador o debo instalar algo?",
+    "respuesta": "No se debe instalar nada en los computadores, solo debes tener conexión a internet y cargar nuestra pagina web por el navegador, de preferencia Chrome."
+  },
+  {
+    "pregunta": "¿Qué impuestos adicionales soporta la plataforma?",
+    "respuesta": "Actualmente en relBase permite trabajar con la mayoría de los impuestos adicionales con la excepción de combustibles."
+  },
+  {
+    "pregunta": "¿Puedo cargar productos de forma masiva?",
+    "respuesta": "Si, tenemos un formato en planilla Excel para cargar o actualizar masivamente todo el catálogo de productos que tengas."
+  },
+  {
+    "pregunta": "¿Cuáles son los medios de pagos para la suscripción?",
+    "respuesta": "Transferencia electrónica."
+  },
+  {
+    "pregunta": "¿Se pueden emitir documentos con productos que no estén en el inventario?",
+    "respuesta": "Si, en relBase puedes emitir documentos que contengan productos con y sin inventario."
+  },
+  {
+    "pregunta": "¿Qué pasa con mi historia de venta y compra?",
+    "respuesta": "Si utilizas el sistema del SII gratuito cargamos automáticamente todas tus ventas y las compras del año en curso. Si utilizas otro proveedor de mercado debes respaldar los archivos XML para que nosotros los carguemos y mantengas tu historia."
+  },
+  {
+    "pregunta": "¿Se emiten facturas por el pago efectuado?",
+    "respuesta": "Si, una vez efectuada la transferencia nuestro equipo solicita tus datos de facturación para emitir la factura o boleta electrónica correspondiente."
+  },
+  {
+    "pregunta": "¿Puedo cambiar mi plan más adelante?",
+    "respuesta": "¡Por supuesto! Puedes incrementar o reducir tu plan en cualquier momento."
+  },
+  {
+    "pregunta": "¿Qué pasa si renuncié a mi plan y deseo volver activarlo definitivamente?",
+    "respuesta": "Puedes volver activar tu cuenta pagando 1 UF + IVA más el valor del plan seleccionado, siempre que la fecha de renuncia no supere los 6 meses."
+  },
+  {
+    "pregunta": "Durante el proceso de certificación, ¿Puedo seguir emitiendo facturas en sistema gratuito del SII?",
+    "respuesta": "Si, puedes seguir utilizando sistema gratuito del SII."
+  },
+  {
+    "pregunta": "¿Necesito una impresora especial para imprimir boletas o facturas electrónicas?",
+    "respuesta": "Puedes imprimir boletas o facturas en cualquier impresora normal. Adicionalmente relBase tiene un módulo punto de venta si atiende a público, que permite imprimir en impresora térmica (80 mm y 58mm) de tickets económica y de bajo costo. Nosotros recomendamos el modelo Epson TM-T20II que puede ser adquirida en cualquier tienda especializada. Lo importante es que sea compatible con tu Sistema Operativo (Windows o Mac)"
+  },
+  {
+    "pregunta": "¿Ofrecen planes con descuento?",
+    "respuesta": "Si, ofrecemos un descuento de 10% en planes anuales, 5% para planes semestrales."
+  },
+  {
+    "pregunta": "¿Puedo dejar de usar relBase en cualquier momento?",
+    "respuesta": "En relBase no existen contratos de por medio y se puede cancelar el servicio en cualquier momento previo aviso de 30 días corridos a menos que elija un plan anual o semestral."
+  },
+  {
+    "pregunta": "¿Qué pasa si no cuento con un certificado digital?",
+    "respuesta": "No te preocupes, con la imagen por ambos lados de tu carnet de identidad nosotros gestionamos la adquisición de uno previo pago de 0,5 UF + IVA por un periodo de 1 año."
+  },
+  {
+    "pregunta": "¿Qué pasa si supero el límite de mi plan?",
+    "respuesta": "Se cobrará por documento adicional emitido de 0,002 UF + IVA que se incluye en la siguiente facturación, pero no te preocupes nunca te cobraremos más que el valor del plan siguiente."
+  },
+  {
+    "pregunta": "¿Qué pasa si renuncié a mi plan y no alcancé a respaldar mi información?",
+    "respuesta": "Puedes volver activar tu cuenta por 1 mes pagando el valor de 1 UF + IVA, siempre que la fecha de renuncia no supere los 6 meses."
+  },
+  {
+    "pregunta": "¿Qué pasa si renuncié a mi plan y necesito enviar RCOF pendientes al SII?",
+    "respuesta": "Pagando el valor de 1 UF + IVA, volvemos a enviar todos los consumos de folios de boletas electrónicas (RCOF) pendientes al SII, siempre que la fecha de renuncia no supere los 6 meses."
+  }
+]

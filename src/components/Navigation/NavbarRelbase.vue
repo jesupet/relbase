@@ -89,7 +89,7 @@
               <router-link class="nav-link nav-text" to="/precios" exact>Precios</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text" href="#">Preguntas Frecuentes</a>
+              <router-link class="nav-link nav-text" to="/faqs" exact>Preguntas Frecuentes</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-text" href="#">Clientes</a>

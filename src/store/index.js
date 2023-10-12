@@ -4,6 +4,7 @@ import caracteristicas from './caracteristicas.json'
 import inventario from './inventario.json'
 import planes from './planes.json'
 import planesIncluyen from './planesIncluyen.json'
+import faqs from './faqs.json'
 import $ from 'jquery';
 
 export const useCounterStore = defineStore('counter', {
@@ -14,6 +15,7 @@ export const useCounterStore = defineStore('counter', {
     inventario: inventario,
     planes: planes,
     planesIncluyen: planesIncluyen,
+    faqs: faqs,
   }),
   getters: {
   },

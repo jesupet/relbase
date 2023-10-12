@@ -8,6 +8,7 @@ import PuntoVentaRb from '../views/caracteristicas/PuntoVentaRb.vue'
 import RecaudacionRb from '../views/caracteristicas/RecaudacionRb.vue'
 import ReportesRb from '../views/caracteristicas/ReportesRb.vue'
 import PreciosRelbase from '../views/PreciosRelbase.vue'
+import PreguntasFrecuentes from '../views/PreguntasFrecuentes.vue'
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: '/precios',
     name: 'precios',
     component: PreciosRelbase,
+  },
+  {
+    path: '/faqs',
+    name: 'faqs',
+    component: PreguntasFrecuentes,
   },
 
 ]

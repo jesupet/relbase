@@ -1,0 +1,42 @@
+#accordionFaqs {
+  margin-top: 30px;
+  .accordion-item {
+    margin: 24px 0px;
+    border-radius: 20px;
+    border-color: transparent;
+  }
+  .accordion-button {
+    background-color: $light-grey;
+    margin: 0px;
+  }
+  .accordion-button:not(.collapsed) {
+    color: $grey-color;
+  }
+  .accordion-button:focus {
+    border: 1px solid $primary-color;
+    box-shadow: none;
+  }
+  .accordion-body {
+    padding: 14px 28px;
+    line-height: 33px;
+  }
+}
+
+/*.accordion-item, .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: $color-font;
+}
+.accordion .accordion-button::after {
+  filter: invert(1);
+}
+.accordion .accordion-button:not(.collapsed)::after {
+  filter: invert(1) sepia(1) hue-rotate(50deg) saturate(1);
+}
+.accordion-button {
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: $color-font;
+}
+.accordion-comp {
+  margin: 50px 0px;
+}*/
