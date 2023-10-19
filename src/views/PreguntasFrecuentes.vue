@@ -12,7 +12,7 @@
               {{item.pregunta}}
             </button>
           </h2>
-          <div :id="`collapse`+index" class="accordion-collapse collapse show subtittle-caract" data-bs-parent="#accordionFaqs">
+          <div :id="`collapse`+index" class="accordion-collapse collapse subtittle-caract" data-bs-parent="#accordionFaqs">
             <div class="accordion-body">
               {{item.respuesta}}
             </div>

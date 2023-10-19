@@ -22,4 +22,11 @@
 }
 .caract-card {
   padding-right: 32px;
+  box-shadow: none;
+}
+.white-card {
+  background-color: $white-color;
+}
+.grey-card {
+  background-color: $light-grey;
 }

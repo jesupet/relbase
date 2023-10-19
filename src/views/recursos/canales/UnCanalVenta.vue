@@ -5,7 +5,7 @@
       <hr class="white-text white-line">
       <h1>Canales de Venta</h1>
     </div>
-    <div class="container">
+    <div class="container-fluid px-0">
       <InfoCanal :index="selectedCanalIndex" :canal="canales[selectedCanalIndex]"/>
     </div>
   </div>

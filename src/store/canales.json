@@ -38,6 +38,24 @@
         "titulo": "Conecta más de una cuenta de MercadoLibre",
         "descripcion": "Podrás conectar todas tus cuentas de MercadoLibre al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta. No importa si la cuenta pertenece a la empresa o no."
       }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con MercadoLibre?",
+        "respuesta": "Tener una cuenta de MercadoLibre, si aún no la tienes debes registrarte en www.mercadolibre.com. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de MercadoLibre, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en MercadoLibre?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en MercadoLibre y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Mercadolibre tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en MercadoLibre?",
+        "respuesta": "No, la integración de Mercadolibre no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Mercadolibre. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
     ]
   },
   {
@@ -75,6 +93,24 @@
         "titulo": "Conecta más de una cuenta de Falabella",
         "descripcion": "Podrás conectar todas tus cuentas de Falabella Seller Center que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
       }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Falabella?",
+        "respuesta": "Tener una cuenta de Falabella Seller Center, si aún no la tienes debes registrarte en www.falabella.com. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Falabella, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Falabella Seller Center?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Falabella Seller Center y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Falabella Seller Center tengan código SKU y sean únicos.a"
+      },
+      {
+        "pregunta": " ¿Si creo un producto en relBase se publica en Falabella Seller Center?",
+        "respuesta": "No, la integración de Falabella no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Falabella. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo conectar mi cuenta de Falabella Seller Vendor Link (SVL)?",
+        "respuesta": "No, la integración disponible en relBase es para el portal sellercenter.falabella.com."
+      }
     ]
   },
   {
@@ -108,6 +144,24 @@
         "titulo": "Conecta más de una cuenta de Ripley",
         "descripcion": "Podrás conectar todas tus cuentas de Mirakl Ripley que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
       }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Ripley?",
+        "respuesta": "Tener una cuenta de Ripley, si aún no la tienes debes registrarte en www.ripley.cl. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Ripley, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Ripley?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Ripley y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Ripley tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Ripley?",
+        "respuesta": "No, la integración de Ripley no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en la plataforma Mirakl de Ripley. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
     ]
   },
   {
@@ -115,48 +169,306 @@
     "titulo": "Paris",
     "descripcion": "Emite boletas y facturas de tus pedidos de Paris Marketplace y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de Paris Marketplace.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Paris (checkout). También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Paris. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Paris y se disminuye con cualquier venta efectuada"
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase adjunta de manera automática la boleta o factura en la cuenta del comprador y vendedor en Paris."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Registra tus ventas fulfillment",
+        "descripcion": "Podrás registrar todas tus ventas fulfillment obteniendo reportes de ventas y productos más vendidos. Las ventas quedan asociadas a una bodega y canal de venta que son utilizados exclusivamente por la integración no alterando el stock actual de relBase."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Paris",
+        "descripcion": "Podrás conectar todas tus cuentas de Paris al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta. No importa si la cuenta pertenece a la empresa o no."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con MercadoLibre?",
+        "respuesta": "Tener una cuenta de Paris Marketplace, si aún no la tienes debes registrarte en marketplace.paris.cl/registrate-ahora. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Paris, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Paris?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Paris y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Paris tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Paris?",
+        "respuesta": "No, la integración de Paris no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Paris Marketplace. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "Jumpseller",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Jumpseller.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Jumpseller (checkout). Una vez confirmado el pago se emite el documento. También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Jumpseller. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Jumpseller y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta o factura al email del comprador si viene informado en el pedido."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Funciona con transferencias bancarias",
+        "descripcion": "Aquellos pedidos que son pagados mediante transferencia bancaria se emitirá una nota de venta de manera automática para reservar el stock, luego una vez confirmado el pago podrás convertir la nota de venta en boleta o factura según lo requerido por el comprador."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Jumpseller",
+        "descripcion": "Podrás conectar todas tus paginas web de Jumpseller que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Jumpseller?",
+        "respuesta": "Tener una cuenta de Jumpseller, si aún no la tienes debes registrarte en www.jumpseller.com. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Jumpseller, ya que la integración la realizas tú directamente en Jumpseller descargando la app relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Jumpseller?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Jumpseller y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Jumpseller tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Jumpseller?",
+        "respuesta": "No, la integración de Jumpseller no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Jumpseller. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "Shopify",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Shopify.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Shopify (carrito de compra). Una vez confirmado el pago se emite el documento. También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Shopify. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Shopify y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta o factura al email del comprador si viene informado en el pedido."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Shopify",
+        "descripcion": "Podrás conectar todas tus paginas web de Shopify que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Shopify?",
+        "respuesta": "Tener una cuenta de Shopify, si aún no la tienes debes registrarte en www.Shopify.com. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Shopify, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Shopify?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Shopify y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Shopify tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Shopify?",
+        "respuesta": "No, la integración de Shopify no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Shopify. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "Woocommerce",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de WooCommerce.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en WooCommerce (checkout). Una vez confirmado el pago se emite el documento. También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con WooCommerce. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en WooCommerce y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta o factura al email del comprador si viene informado en el pedido."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de WooCommerce",
+        "descripcion": "Podrás conectar todas tus paginas web de Woocommerce que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con WooCommerce?",
+        "respuesta": "Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de WooCommerce, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en WooCommerce?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en WooCommerce y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en WooCommerce tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en WooCommerce?",
+        "respuesta": "No, la integración de WooCommerce no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en WooCommerce. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "Prestashop",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Prestashop.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "Emisión de boleta electrónicas. Una vez confirmada la compra se emite el documento. También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Prestashop. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Prestashop y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta electrónica",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta al email del comprador si viene informado en el pedido."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Prestashop?",
+        "respuesta": "Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Prestashop, ya que la integración la realizas tú directamente en Prestashop instalando el plugin de relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Prestashop?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Prestashop y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Prestashop tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Prestashop?",
+        "respuesta": "No, la integración de Prestashop no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Prestashop. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "terreno",
     "descripcion": "Emite boleta, facturas y cotizaciones en terreno, manteniendo tu inventario sincronizado con nuestra app móvil.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Descarga nuestra app móvil y vende en terreno con boleta y factura electrónica conectado a tu inventario y canales digitales. Gratis al contratar uno de nuestros planes vigentes.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión de documentos tributarios y cotizaciones",
+        "descripcion": "Puedes emitir boletas, facturas, guías de despacho, cotizaciones y notas de ventas: (A) Venta rápida: Sin detalle, ideal para aquellas ventas que no necesitas descontar stock. (B) Venta con detalle: Agrega tus productos y automáticamente se descontará el stock tanto en relBase como en otros canales de venta conectados."
+      },
+      {
+        "titulo": "Envía el documento electrónico por correo electrónico",
+        "descripcion": "Al momento de emitir el documento tributario puedes enviarlo al correo electrónico del cliente si lo deseas para evitar su impresión."
+      },
+      {
+        "titulo": "Compatible con impresoras bluetooth",
+        "descripcion": "Si deseas imprimir tus documentos, puedes conectar una impresora bluetooth a tu dispotivio móvil. Recomendamos las siguientes marcas: MobilePrinter, Goojprt PT 210, Xprinter XP-P101"
+      }
+    ]
   },
   {
     "logo": "falabella.png",
     "titulo": "Dafiti",
     "descripcion": "Emite boletas y facturas de tus pedidos de Dafiti Seller Center y sincroniza tu inventario desde relBase.",
     "vermas": "falabella",
-    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de Dafiti Seller Center.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Dafiti (checkout). También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Dafiti. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Dafiti y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta o factura al email del comprador si viene informado en el pedido."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Dafiti",
+        "descripcion": "Podrás conectar todas tus cuentas de Dafiti Seller Center que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ],
+    "faqs": [
+      {
+        "pregunta": "¿Cúales son los requisitos para activar la integración con Dafiti?",
+        "respuesta": "Tener una cuenta de Dafiti, si aún no la tienes debes registrarte en www.Dafiti.com. Puedes activarlo con cualquier plan contratado de relBase. Nunca te pediremos las credenciales de tu cuenta de Dafiti, ya que la integración la realizas tú directamente en relBase."
+      },
+      {
+        "pregunta": "¿Puedo utilizar los productos que ya tengo creados en Dafiti?",
+        "respuesta": "Si, puedes utilizar los mismos productos que actualmente tienes publicados en Dafiti y su sincronización se realiza mediante el SKU en relBase. Al momento de realizar la sincronización de productos verifica que todos tus productos y variantes en Dafiti tengan código SKU y sean únicos."
+      },
+      {
+        "pregunta": "¿Si creo un producto en relBase se publica en Dafiti?",
+        "respuesta": "No, la integración de Dafiti no incluye la carga de descripciones, precios, fotos u otros atributos de los productos en Dafiti. Estos deben ser gestionados exclusivamente por el cliente."
+      },
+      {
+        "pregunta": "¿Puedo seleccionar qué tipo de documento emitir por cada venta?",
+        "respuesta": "Si, puedes configurar la integración para forzar emitir un documento en particular, como por ejemplo notas de ventas y luego convertirlas a boleta o factura."
+      }
+    ]
   }
 ]

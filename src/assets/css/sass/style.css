@@ -401,6 +401,16 @@ button {
 
 .caract-card {
   padding-right: 32px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.white-card {
+  background-color: #fff;
+}
+
+.grey-card {
+  background-color: rgba(201, 209, 218, 0.2);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -1083,10 +1093,17 @@ header .subtittle {
   padding-left: 8px;
 }
 
+#canales .card-title {
+  font-size: 35px;
+  padding: 16px;
+}
+
 .canal-card {
   margin: 16px;
   padding: 24px 16px;
   max-width: 540px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .btn-canal {
@@ -1128,5 +1145,19 @@ header .subtittle {
   .canal-title p {
     margin: 8px 30%;
   }
+}
+
+#faqs-canal .accordion-button {
+  background: rgba(85, 97, 112, 0.1);
+  padding: 24px 32px;
+  border-radius: 20px;
+}
+
+#faqs-canal .accordion-item {
+  background-color: transparent;
+}
+
+#faqs-canal .accordion-body {
+  padding-top: 24px;
 }
 /*# sourceMappingURL=style.css.map */

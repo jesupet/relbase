@@ -7,11 +7,16 @@
   .col-sm-8 {
     padding-left: 8px;
   }
+  .card-title {
+    font-size: 35px;
+    padding: 16px;
+  }
 }
 .canal-card {
   margin: 16px;
   padding: 24px 16px;
   max-width: 540px;
+  box-shadow: none;
 }
 .btn-canal {
   margin-top: 16px;
@@ -41,5 +46,18 @@
     p {
       margin: 8px 30%;
     }
+  }
+}
+#faqs-canal {
+  .accordion-button {
+    background: rgba(85, 97, 112, 0.10);
+    padding: 24px 32px;
+    border-radius: 20px;
+  }
+  .accordion-item {
+    background-color: transparent;
+  }
+  .accordion-body {
+    padding-top: 24px;
   }
 }
