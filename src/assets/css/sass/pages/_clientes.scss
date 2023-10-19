@@ -1,0 +1,43 @@
+.grey-bg-section {
+  background: radial-gradient(500.05% 52.41% at 61.75% 88.6%, rgba(85, 97, 112, 0.70) 0%, #556170 100%);
+  mix-blend-mode: multiply;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#client-card {
+  position: relative;
+  padding: 25px 20px;
+  margin: 48px 0px;
+  .card-text {
+    font-style: italic;
+  }
+}
+.city {
+  background-color: $primary-color;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: $white-color;
+  position: absolute;
+  top: -20px;
+  right: 0;
+  &.city-right {
+    right: 0;
+  }
+  &.city-left {
+    left: 0;
+  }
+}
+.map-white {
+  height: 1100px;
+}
+#reviews-desktop {
+  position: relative;
+}
+.review1 {
+  position: absolute;
+  top: 65px;
+  right: 560px;
+}

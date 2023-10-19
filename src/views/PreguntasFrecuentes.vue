@@ -28,7 +28,7 @@ import { mapState } from 'pinia'
 import { useCounterStore } from '../store/index'
 
 export default {
-  name: 'PreciosRelbase',
+  name: 'PreguntasFrecuentes',
   computed: {
     ...mapState(useCounterStore, ['faqs'])
   },

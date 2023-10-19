@@ -5,7 +5,10 @@ import inventario from './inventario.json'
 import planes from './planes.json'
 import planesIncluyen from './planesIncluyen.json'
 import faqs from './faqs.json'
+import reviews from './reviews.json'
+import canales from './canales.json'
 import $ from 'jquery';
+
 
 export const useCounterStore = defineStore('counter', {
   state: () => ({
@@ -16,6 +19,8 @@ export const useCounterStore = defineStore('counter', {
     planes: planes,
     planesIncluyen: planesIncluyen,
     faqs: faqs,
+    reviews: reviews,
+    canales: canales,
   }),
   getters: {
   },

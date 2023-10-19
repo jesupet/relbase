@@ -1,0 +1,162 @@
+[
+  {
+    "logo": "meli.png",
+    "titulo": "Mercado Libre",
+    "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario con múltiples publicaciones desde relBase.",
+    "vermas": "mercadolibre",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en MercadoLibre (checkout). También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con MercadoLibre. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en MercadoLibre y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase adjunta de manera automática la boleta o factura en la cuenta del comprador y vendedor en MercadoLibre."
+      },
+      {
+        "titulo": "Conoce tu margen/utilidad por cada venta",
+        "descripcion": "Siempre podrás obtener el margen de utilidad por cada venta de MercadoLibre, relBase agrega como costo adicional las comisiones y costos de despacho de la venta para obtener un margen real."
+      },
+      {
+        "titulo": "Sincroniza el stock de múltiples publicaciones",
+        "descripcion": "Sincroniza múltiples publicaciones a un solo producto en relBase, de esta manera el stock se encuentra sincronizado siempre con todas las publicaciones asociadas, ya sea si se vende a través de MercadoLibre u otro canal de venta."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Registra tus ventas de Mercado FULL",
+        "descripcion": "Podrás registrar todas tus ventas que se generen en Mercado FULL obteniendo reportes de ventas y productos más vendidos. Las ventas fulfillment quedan asociadas a una bodega y canal de venta que son utilizados exclusivamente por la integración no alterando el stock actual de relBase."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de MercadoLibre",
+        "descripcion": "Podrás conectar todas tus cuentas de MercadoLibre al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta. No importa si la cuenta pertenece a la empresa o no."
+      }
+    ]
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Falabella",
+    "descripcion": "Emite boletas y facturas de tus pedidos de Falabella Seller Center y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de Falabella Seller Center.",
+    "caracteristicas": [
+      {
+        "titulo": "Configura el flujo de venta que tengas asignado",
+        "descripcion": "Puedes configurar facturación de venta en verde (notas de ventas) o facturación de ticket de recaudación (boleta o factura) según lo que tengas pactado con Falabella."
+      },
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Falabella (checkout) cuando tienes configurado facturación con ticket de recaudación. Si tienes facturación con venta en verde entonces se emiten notas de ventas de cada pedido informado."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Falabella. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Falabella y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase adjunta de manera automática la boleta o factura en la sección de documentos tributarios del SellerCenter."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Registra tus ventas fulfillment",
+        "descripcion": "Podrás registrar todas tus ventas fulfillment obteniendo reportes de ventas y productos más vendidos. Las ventas quedan asociadas a una bodega y canal de venta que son utilizados exclusivamente por la integración no alterando el stock actual de relBase."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Falabella",
+        "descripcion": "Podrás conectar todas tus cuentas de Falabella Seller Center que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ]
+  },
+  {
+    "logo": "ripley.png",
+    "titulo": "Ripley",
+    "descripcion": "Emite boletas y facturas de tus pedidos de Mirakl y sincroniza tu inventario desde relBase.",
+    "vermas": "ripley",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada tienda de Ripley.",
+    "caracteristicas": [
+      {
+        "titulo": "Emisión automática de boletas, facturas o notas de ventas",
+        "descripcion": "El comprador es quien define si desea boleta o factura al momento de efectuar la compra en Ripley (checkout). También puedes configurar notas de ventas y luego convertirlas en boleta o factura."
+      },
+      {
+        "titulo": "Sincronización de stock",
+        "descripcion": "Sincroniza tu stock en tiempo real con Ripley. Cada vez que hagas una recepción de inventario en relBase, se aumenta el stock en Ripley y se disminuye con cualquier venta efectuada."
+      },
+      {
+        "titulo": "Envía automáticamente la boleta o factura",
+        "descripcion": "Al momento de emitir el documento tributario relBase envía de manera automática la boleta o factura al email del comprador si viene informado en el pedido."
+      },
+      {
+        "titulo": "Conoce tu margen/utilidad por cada venta",
+        "descripcion": "Siempre podrás obtener el margen de utilidad por cada venta de Ripley, relBase agrega como costo adicional las comisiones y costos de despacho de la venta para obtener un margen real."
+      },
+      {
+        "titulo": "Sincroniza el stock de packs",
+        "descripcion": "Crea publicaciones con packs y relBase descontará el inventario del pack y los productos individuales. También, cuando se venda uno de los productos individuales, relBase recalculará el stock del pack y se actualizará nuevamente tanto en relBase como en todas las integraciones activas."
+      },
+      {
+        "titulo": "Conecta más de una cuenta de Ripley",
+        "descripcion": "Podrás conectar todas tus cuentas de Mirakl Ripley que tengas al mismo inventario y hacer que tus productos se vendan en múltiples canales de venta."
+      }
+    ]
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Paris",
+    "descripcion": "Emite boletas y facturas de tus pedidos de Paris Marketplace y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Jumpseller",
+    "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Shopify",
+    "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Woocommerce",
+    "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Prestashop",
+    "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "terreno",
+    "descripcion": "Emite boleta, facturas y cotizaciones en terreno, manteniendo tu inventario sincronizado con nuestra app móvil.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  },
+  {
+    "logo": "falabella.png",
+    "titulo": "Dafiti",
+    "descripcion": "Emite boletas y facturas de tus pedidos de Dafiti Seller Center y sincroniza tu inventario desde relBase.",
+    "vermas": "falabella",
+    "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de MercadoLibre."
+  }
+]

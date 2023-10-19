@@ -256,6 +256,14 @@ p {
   color: #C9DC00;
 }
 
+.green-text {
+  color: #C9DC00;
+}
+
+.white-text {
+  color: #fff;
+}
+
 .bgc-green {
   background-color: #C9DC00;
   color: #fff;
@@ -387,8 +395,12 @@ button {
   padding-bottom: 35px;
 }
 
-.card-inv {
+.card-inv, .caract-card {
   margin-bottom: 32px;
+}
+
+.caract-card {
+  padding-right: 32px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -1003,5 +1015,118 @@ header .subtittle {
 .faqs {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.grey-bg-section {
+  background: radial-gradient(500.05% 52.41% at 61.75% 88.6%, rgba(85, 97, 112, 0.7) 0%, #556170 100%);
+  mix-blend-mode: multiply;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#client-card {
+  position: relative;
+  padding: 25px 20px;
+  margin: 48px 0px;
+}
+
+#client-card .card-text {
+  font-style: italic;
+}
+
+.city {
+  background-color: #C9DC00;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.city.city-right {
+  right: 0;
+}
+
+.city.city-left {
+  left: 0;
+}
+
+.map-white {
+  height: 1100px;
+}
+
+#reviews-desktop {
+  position: relative;
+}
+
+.review1 {
+  position: absolute;
+  top: 65px;
+  right: 560px;
+}
+
+#canales {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#canales .card-text {
+  margin-bottom: 16px;
+}
+
+#canales .col-sm-8 {
+  padding-left: 8px;
+}
+
+.canal-card {
+  margin: 16px;
+  padding: 24px 16px;
+  max-width: 540px;
+}
+
+.btn-canal {
+  margin-top: 16px;
+  margin-left: 0px;
+  border-radius: 20px;
+  border: 1px solid #FF5E2B;
+}
+
+.img-canal-cont {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-canal {
+  max-width: 172px;
+  padding: 8px;
+}
+
+.white-line {
+  width: 14px;
+  border-width: 2px;
+  opacity: 1;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.canal-title {
+  margin: 32px 0px;
+}
+
+@media (min-width: 768px) {
+  .canal-title p {
+    margin: 8px 30%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

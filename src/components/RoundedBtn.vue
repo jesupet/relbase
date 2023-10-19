@@ -9,10 +9,8 @@ export default {
   name: 'RoundedBtn',
   props: {
     to: {
-      type: Object,
-      default() {
-        return { message: 'hello' }
-      }
+      type: String,
+      default: '/'
     },
     buttonText: {
       type: String,

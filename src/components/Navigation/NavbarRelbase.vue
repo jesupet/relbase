@@ -92,10 +92,72 @@
               <router-link class="nav-link nav-text" to="/faqs" exact>Preguntas Frecuentes</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text" href="#">Clientes</a>
+              <router-link class="nav-link nav-text" to="/clientes" exact>Clientes</router-link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-text" href="#">Recursos</a>
+            <li class="nav-item dropdown">
+              <a 
+              class="nav-link dropdown-toggle nav-text" 
+              href="#"
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false"
+              >
+                Recursos
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/recursos/canales-de-venta" 
+                    >Canales de Venta
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/recursos/integraciones" 
+                    >Integraciones
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/recursos/api"
+                  >API relBase
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/recursos/centro-de-ayuda"
+                  >Recaudación
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/reportes"
+                  >
+                    Reportes
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/canales-digitales"
+                  >
+                    Canales Digitales
+                  </router-link>
+                </li>
+                <li>
+                  <router-link 
+                  class="dropdown-item nav-text" 
+                  to="/caracteristicas/app-movil"
+                  >
+                    App Movil
+                  </router-link>
+                </li>
+              </ul>
             </li>
             <li>
               <RoundedBtn :buttonText="'Iniciar Sesión'" :class="'white-btn-primary btn-nav'"/>   

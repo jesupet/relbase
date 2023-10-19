@@ -9,6 +9,9 @@ import RecaudacionRb from '../views/caracteristicas/RecaudacionRb.vue'
 import ReportesRb from '../views/caracteristicas/ReportesRb.vue'
 import PreciosRelbase from '../views/PreciosRelbase.vue'
 import PreguntasFrecuentes from '../views/PreguntasFrecuentes.vue'
+import NuestrosClientes from '../views/NuestrosClientes.vue'
+import CanalesVenta from '../views/recursos/CanalesVenta.vue'
+import UnCanalVenta from '../views/recursos/canales/UnCanalVenta.vue'
 
 const routes = [
   {
@@ -60,6 +63,21 @@ const routes = [
     path: '/faqs',
     name: 'faqs',
     component: PreguntasFrecuentes,
+  },
+  {
+    path: '/clientes',
+    name: 'clientes',
+    component: NuestrosClientes,
+  },
+  {
+    path: '/recursos/canales-de-venta',
+    name: 'canales-de-venta',
+    component: CanalesVenta,
+  },
+  {
+    path: '/recursos/canales-de-venta/:index',
+    name: 'uncanalventa',
+    component: UnCanalVenta,
   },
 
 ]

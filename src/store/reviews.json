@@ -1,0 +1,14 @@
+[
+  {
+    "comentario": "Hola",
+    "autor": "Juanito Pérez",
+    "cargo": "Brand Manager",
+    "ciudad": "Iquique"
+  },
+  {
+    "comentario": "Buenísimo",
+    "autor": "Jesu Petour",
+    "cargo": "Project Manager",
+    "ciudad": "Santiago"
+  }
+]
