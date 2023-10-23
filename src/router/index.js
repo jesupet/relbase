@@ -12,6 +12,8 @@ import PreguntasFrecuentes from '../views/PreguntasFrecuentes.vue'
 import NuestrosClientes from '../views/NuestrosClientes.vue'
 import CanalesVenta from '../views/recursos/CanalesVenta.vue'
 import UnCanalVenta from '../views/recursos/canales/UnCanalVenta.vue'
+import IntegracionesRb from '../views/recursos/IntegracionesRb.vue'
+import ApiRelbase from '../views/recursos/ApiRelbase.vue'
 
 const routes = [
   {
@@ -78,6 +80,16 @@ const routes = [
     path: '/recursos/canales-de-venta/:index',
     name: 'uncanalventa',
     component: UnCanalVenta,
+  },
+  {
+    path: '/recursos/integraciones',
+    name: 'integraciones',
+    component: IntegracionesRb,
+  },
+  {
+    path: '/recursos/api',
+    name: 'api',
+    component: ApiRelbase,
   },
 
 ]

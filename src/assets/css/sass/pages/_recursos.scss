@@ -61,3 +61,30 @@
     padding-top: 24px;
   }
 }
+.api-exp {
+  margin: 148px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.api-number {
+  @media (min-width: $tablet-width){
+    margin: 0px 0px 0px -40px;
+    padding-top: 0px;
+  }
+  margin-top: -80px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  img {
+    width: 57px;
+  }
+}
+.apicard-icon {
+  padding: 0px 48px;
+}
+.cards-api-cont {
+  .row {
+    align-items: center;
+  }
+}

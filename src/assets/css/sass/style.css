@@ -148,7 +148,7 @@ h3 {
 .subtittle-caract {
   color: #556170;
   font-size: 25px;
-  line-height: 24px;
+  line-height: 35px;
 }
 
 .precio-titulo {
@@ -262,6 +262,10 @@ p {
 
 .white-text {
   color: #fff;
+}
+
+.grey-text {
+  color: #556170;
 }
 
 .bgc-green {
@@ -395,7 +399,7 @@ button {
   padding-bottom: 35px;
 }
 
-.card-inv, .caract-card {
+.card-inv, .caract-card, .api-card {
   margin-bottom: 32px;
 }
 
@@ -411,6 +415,18 @@ button {
 
 .grey-card {
   background-color: rgba(201, 209, 218, 0.2);
+}
+
+.int-card {
+  margin: 72px 0px;
+}
+
+.int-card .medium-p {
+  margin-bottom: 24px;
+}
+
+.cards-api-cont {
+  margin: 48px 72px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -1159,5 +1175,49 @@ header .subtittle {
 
 #faqs-canal .accordion-body {
   padding-top: 24px;
+}
+
+.api-exp {
+  margin: 148px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.api-number {
+  margin-top: -80px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .api-number {
+    margin: 0px 0px 0px -40px;
+    padding-top: 0px;
+  }
+}
+
+.api-number img {
+  width: 57px;
+}
+
+.apicard-icon {
+  padding: 0px 48px;
+}
+
+.cards-api-cont .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

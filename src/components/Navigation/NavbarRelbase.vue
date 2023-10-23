@@ -126,37 +126,6 @@
                   >API relBase
                   </router-link>
                 </li>
-                <li>
-                  <router-link 
-                  class="dropdown-item nav-text" 
-                  to="/recursos/centro-de-ayuda"
-                  >Recaudación
-                  </router-link>
-                </li>
-                <li>
-                  <router-link 
-                  class="dropdown-item nav-text" 
-                  to="/caracteristicas/reportes"
-                  >
-                    Reportes
-                  </router-link>
-                </li>
-                <li>
-                  <router-link 
-                  class="dropdown-item nav-text" 
-                  to="/caracteristicas/canales-digitales"
-                  >
-                    Canales Digitales
-                  </router-link>
-                </li>
-                <li>
-                  <router-link 
-                  class="dropdown-item nav-text" 
-                  to="/caracteristicas/app-movil"
-                  >
-                    App Movil
-                  </router-link>
-                </li>
               </ul>
             </li>
             <li>

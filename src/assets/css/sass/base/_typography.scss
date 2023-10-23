@@ -77,7 +77,7 @@ h4 {
   @extend %catamaran-font-medium;
   color: $grey-color;
   font-size: 25px;
-  line-height: 24px;
+  line-height: 35px;
 }
 .precio-titulo {
   font-size: 20px;
@@ -189,4 +189,7 @@ p {
 }
 .white-text {
   color: $white-color;
+}
+.grey-text {
+  color: $grey-color;
 }
