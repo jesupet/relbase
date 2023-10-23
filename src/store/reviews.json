@@ -1,14 +1,32 @@
 [
   {
-    "comentario": "Hola",
-    "autor": "Juanito Pérez",
-    "cargo": "Brand Manager",
+    "comentario": "Me cambié a relBase desde otra empresa y me ha ayudado mucho a ordenarme. La plataforma es fácil de usar nunca he tenido ningún problema! Lo recomiendo 😉",
+    "autor": "Luz Ramírez",
+    "cargo": "Scrubs Lab Ltda",
     "ciudad": "Iquique"
   },
   {
-    "comentario": "Buenísimo",
-    "autor": "Jesu Petour",
-    "cargo": "Project Manager",
+    "comentario": "Excelente experiencia, el sistema es muy amigable e intuitivo, en todo el tiempo que llevábamos usándolo no hemos tenido ningún problema, todos nuestros trabajadores se adaptan a el muy rápido, así que estamos muy agradecidos",
+    "autor": "",
+    "cargo": "Delipet Chile",
     "ciudad": "Santiago"
+  },
+  {
+    "comentario": "Integraciones, facturación, inventario… todo a un excelente nivel y lo mejor de todo es que siempre están dispuesto a ayudar y responder todas las consultas",
+    "autor": "Victor Bobadilla",
+    "cargo": "Gyro Spa",
+    "ciudad": "Viña del Mar"
+  },
+  {
+    "comentario": "Lo utilizamos hace mas de un año. la experiencia ha sido buenísima, el flujo de cotización-nota de venta y facturación es genial.... Muy Buen Software",
+    "autor": "",
+    "cargo": "Hub Technology Spa",
+    "ciudad": "Curicó"
+  },
+  {
+    "comentario": "Es un sistema muy amigable llevamos casi tres años y todo súper bien el soporte es bastante bueno y eficaz 100% recomendable.",
+    "autor": "Margarita Rosa",
+    "cargo": "El Emprendedor Spa",
+    "ciudad": "Punta Arenas"
   }
 ]
