@@ -1215,9 +1215,24 @@ header .subtittle {
   padding: 0px 48px;
 }
 
+.cards-api-cont {
+  padding-bottom: 60px;
+}
+
 .cards-api-cont .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.man-cont {
+  position: relative;
+}
+
+.api-man {
+  width: 480px;
+  position: absolute;
+  right: 0;
+  bottom: -143px;
 }
 /*# sourceMappingURL=style.css.map */

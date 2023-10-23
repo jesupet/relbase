@@ -82,24 +82,30 @@
         </div>
       </div>
     </div>
+    <div class="grey-sec container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-md-start text-center px-5">
+            <h3 class="titulo-gris-footer">¿Quieres ser parte de nuestra red de Integradores?</h3>
+            <p class="medium-p pb-3">Registra tu solución/aplicación y sé parte del ecosistema de integraciones de relBase.</p>
+            <router-link :to="`/`" class="btn-primary btn-canal">
+              Registrar
+            </router-link> 
+          </div>
+          <div class="col-6 man-cont d-md-block d-none">
+            <img src="../../assets/hombre_header.png" alt="" class="api-man">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { mapState } from 'pinia'
-import { useCounterStore } from '../../store/index'
 
 export default {
   name: 'ApiRelbase',
   components: {
   },
-  computed: {
-    ...mapState(useCounterStore, ['canales']),
-  },
-  methods: {
-    selectPlan(index) {
-      this.selectedPlanIndex = index;
-    },
-  }
 }
 </script>
