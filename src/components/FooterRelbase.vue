@@ -73,7 +73,7 @@
                 Soporte
               </p>
               <ul class="pre-navbar">
-               <li><a href="">Políticas de privacidad</a></li>
+               <li><router-link to="/politicas-privacidad">Políticas de privacidad</router-link></li>
                 <li><a href="">Términos y condiciones</a></li>
                 <li><a href="">Centro de ayuda</a></li>
                 <li><a href="">Consulta de documentos</a></li>

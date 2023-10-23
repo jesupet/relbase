@@ -14,6 +14,7 @@ import CanalesVenta from '../views/recursos/CanalesVenta.vue'
 import UnCanalVenta from '../views/recursos/canales/UnCanalVenta.vue'
 import IntegracionesRb from '../views/recursos/IntegracionesRb.vue'
 import ApiRelbase from '../views/recursos/ApiRelbase.vue'
+import PoliticasPrivacidad from '../views/PoliticasPrivacidad.vue'
 
 const routes = [
   {
@@ -90,6 +91,11 @@ const routes = [
     path: '/recursos/api',
     name: 'api',
     component: ApiRelbase,
+  },
+  {
+    path: '/politicas-privacidad',
+    name: 'politicas-privacidad',
+    component: PoliticasPrivacidad,
   },
 
 ]

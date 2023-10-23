@@ -20,11 +20,14 @@
     margin-left: 6px;
     margin-right: 6px;
   }
+  @media (min-width: $big-tablet-width){
+    display: flex;
+    align-items: center;
+  }
   @media (max-width: $big-tablet-width){
     a {
       color: $white-color;
     }
-    
   }
 }
 .nav-link.router-link-active,  .my-active-class{

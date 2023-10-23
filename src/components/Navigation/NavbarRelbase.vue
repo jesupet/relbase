@@ -54,8 +54,7 @@
                   <router-link 
                   class="dropdown-item nav-text" 
                   to="/caracteristicas/recaudacion"
-                  @click="handleDropdownItemClick('recaudacion')"
-                  :class="{ 'active-link': selectedMenuItem === 'recaudacion' }">
+                  >
                     Recaudación
                   </router-link>
                 </li>

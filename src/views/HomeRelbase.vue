@@ -90,7 +90,7 @@
         </div>
         <StepCard/>    
       </div>
-      <div class="diagram">
+      <div class="diagram d-xl-none d-block">
         <StepCarousel/>
       </div>
     </section>

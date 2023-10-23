@@ -295,6 +295,17 @@ p {
   margin-right: 6px;
 }
 
+@media (min-width: 992px) {
+  .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media (max-width: 992px) {
   .nav-item a {
     color: #fff;
@@ -856,9 +867,10 @@ header .subtittle {
 }
 
 .main-sec {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-right: 0px;
   padding-left: 0px;
+  padding-bottom: 40px;
 }
 
 .hr-caract {
