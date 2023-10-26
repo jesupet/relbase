@@ -11,9 +11,19 @@
           <div class="py-5 my-5">
             <img src="../assets/map-white.png" alt="" class="map-white">
           </div>
-          <div  v-for="(review, index) in reviews" :key="index">
-            <a @click="showReview(index)" :class="'review'+index"><img src="../assets/vectors/review.svg" alt=""></a>
-            <div class="card" id="client-card" v-if="selectedReviewIndex === index">
+          <div  
+            v-for="(review, index) in reviews" 
+            :key="index"
+            :style="{
+              position: 'absolute',
+              top: review.top + 'px',
+              right: review.right + 'px',
+              cursor: 'pointer'
+            }"
+            @click="showReview(index)"
+          >
+            <img src="../assets/vectors/review.svg" alt="">
+            <div class="card" id="client-card" v-if="selectedReviewIndex === index" :style="cardStyle">
               <div class="city medium-p-white">
                 {{review.ciudad}}
               </div>
@@ -45,6 +55,9 @@ export default {
   data() {
     return {
       selectedReviewIndex: null,
+      cardStyle: {
+        display: 'none', // Inicialmente oculta la tarjeta
+      },
     }
   },
   computed: {
@@ -54,8 +67,18 @@ export default {
     showReview(index) {
        if (this.selectedReviewIndex === index) {
         this.selectedReviewIndex = null;
+        this.cardStyle = { display: 'none' }; // Oculta la tarjeta
       } else {
         this.selectedReviewIndex = index;
+        const selectedReview = this.reviews[index];
+        this.cardStyle = {
+          display: 'block',
+          position: 'absolute',
+          top: '50px',
+          left: (selectedReview.left + 10) + 'px', // Ajusta la posición a la derecha del punto
+          width: '400px',
+          'z-index': '1',
+        };
       }
     },
   }
