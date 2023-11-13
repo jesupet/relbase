@@ -31,7 +31,7 @@
         <li class="el" v-for="(caracteristica, index) in plan.caracteristicas" :key="index">
           <span><img src="../assets/vectors/check.svg" alt="Checkmark icon"></span>
           <p>{{caracteristica}}</p>
-          <ToolTip v-if="deberiaTenerTooltip(caracteristica)" :tooltip="tooltipParaCaracteristica(caracteristica)" />
+          <ToolTip v-show="deberiaTenerTooltip(caracteristica)" :tooltip="tooltipParaCaracteristica(caracteristica)" />
         </li>
       </ul>
     </div>
@@ -39,6 +39,8 @@
 </template>
 
 <script>
+import { mapState, mapActions } from 'pinia'
+import { useCounterStore } from '../store/index'
 import RoundedBtn from './RoundedBtn.vue'
 import ToolTip from './ToolTip.vue'
 
@@ -58,21 +60,11 @@ export default {
       required: true,
     }, // Propiedad para recibir el plan completo
   },
-  methods: {
-    deberiaTenerTooltip(caracteristica) {
-      // Define aquí las condiciones para determinar si una característica debe tener un tooltip
-      // Por ejemplo, puedes verificar si la característica contiene cierta palabra clave
-      return caracteristica.indexOf() == 3;
-    },
-    tooltipParaCaracteristica(caracteristica) {
-      // Define aquí el contenido del tooltip para cada característica
-      // Puedes retornar diferentes tooltips basados en la característica
-      if (caracteristica.indexOf('impuestos')) {
-        return '<b>Impuestos adicionales:</b><br /><br />- Art. de oro, joyas y pieles finas (15%)<br />- Tapices, casa rodantes, caviar y Armas de aire o gas (15%)<br />- Licores, Piscos, Destilados (31,5%)<br />- Vinos, Chichas y Sidras (20,5%)<br />- Cervezas y otras bebidas alcohólicas (20,5%)<br />- Aguas minerales y bebidas analcohólicas (10%)<br />- Bebidas analcohólicas y minerales con elevado contenido de azúcares (18%)<br />- Pirotecnia (50%)<br />- IVA anticipado carne (5%)<br />- IVA anticipado harina (12%)';
-      }
-      // Agrega más casos según sea necesario
-      return 'Texto de tooltip predeterminado';
-    },
+  computed: {
+    ...mapState(useCounterStore, ['planes', 'planesIncluyen'])
   },
+  methods: {
+    ...mapActions(useCounterStore, ['deberiaTenerTooltip', 'tooltipParaCaracteristica'])
+    }
 }
 </script>

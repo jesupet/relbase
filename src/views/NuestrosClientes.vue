@@ -46,6 +46,7 @@ import ClientCard from '../components/ClientCard.vue'
 import { mapState } from 'pinia'
 import { useCounterStore } from '../store/index'
 
+
 export default {
   name: 'NuestrosClientes',
   components: {
@@ -74,14 +75,15 @@ export default {
         this.cardStyle = {
           display: 'block',
           position: 'absolute',
-          top: '50px',
+          top: '-30px',
+          right: '-450px',
           left: (selectedReview.left + 10) + 'px', // Ajusta la posición a la derecha del punto
           width: '400px',
           'z-index': '1',
         };
       }
     },
-  }
-  
+  },
+ 
 }
 </script>

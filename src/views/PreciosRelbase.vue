@@ -47,27 +47,45 @@
       <table class="table table-striped table-bordered price-table">
         <tbody>
           <tr>
-            <th class="medium-p">Integración con eCommerce</th>
+            <th class="medium-p">
+              Integración con eCommerce 
+              <ToolTip :tooltip="'Emisión automática de boletas electrónicas y sincronización de stock con diferentes canales de venta. \nDisponible para:\nPrestashop(v1.6/v.1.7),\nWooCommerce (v3.5 o superior),\nJumpseller y\nShopify.\nCada nueva integración tiene un valor de 0,5 UF + IVA mensual.'"/>
+            </th>
             <td class="table-price">0,5 UF + iva</td>
           </tr>
           <tr>
-            <th class="medium-p">Integración con MercadoLibre</th>
+            <th class="medium-p">
+              Integración con MercadoLibre
+              <ToolTip :tooltip="'Emisión automática de boletas electrónicas y sincronización de stock con diferentes canales de venta. \nEl valor adicional al plan es 1 UF + IVA mensual por cada cuenta de MercadoLibre.'"/>
+            </th>
             <td class="table-price">1 UF + iva</td>
           </tr>
           <tr>
-            <th class="medium-p">Integración con Paris</th>
+            <th class="medium-p">
+              Integración con Paris
+              <ToolTip :tooltip="'Emisión automática de boletas electrónicas y sincronización de stock con diferentes canales de venta. \nEl valor adicional al plan es 1 UF + IVA mensual por cada cuenta de Paris Marketplace.'"/>
+            </th>
             <td class="table-price">1 UF + iva</td>
           </tr>
           <tr>
-            <th class="medium-p">Integración con Ripley</th>
+            <th class="medium-p">
+              Integración con Ripley
+              <ToolTip :tooltip="'Emisión automática de boletas electrónicas y sincronización de stock con diferentes canales de venta. \nEl valor adicional al plan es 1 UF + IVA mensual por cada tienda asociada a la cuenta de Mercado Ripley (Mirakl).'"/>
+            </th>
             <td class="table-price">1 UF + iva</td>
           </tr>
           <tr>
-            <th class="medium-p">Integración con Falabella SellerCenter</th>
+            <th class="medium-p">
+              Integración con Falabella SellerCenter
+              <ToolTip :tooltip="'Emisión automática de boletas/facturas/notas de ventas y sincronización de stock con diferentes canales de venta. \nEl valor adicional al plan es 1 UF + IVA mensual por cada tienda asociada a la cuenta de Falabella (SellerCenter).'"/>
+            </th>
             <td class="table-price">1 UF + iva</td>
           </tr>
           <tr>
-            <th class="medium-p">Integración con Dafiti</th>
+            <th class="medium-p">
+              Integración con Dafiti
+              <ToolTip :tooltip="'Emisión automática de boletas/facturas y sincronización de stock con diferentes canales de venta. \nEl valor adicional al plan es 1 UF + IVA mensual por cada tienda asociada a la cuenta de Dafiti (SellerCenter).'"/>
+            </th>
             <td class="table-price">1 UF + iva</td>
           </tr>
         </tbody>
@@ -81,7 +99,10 @@
             <th>
               <img src="../assets/vectors/check.svg" alt="Checkmark icon" class="green-check">
             </th>
-            <td class="medium-p">{{feature}}</td>
+            <td class="medium-p">
+              {{feature}}
+              <ToolTip v-show="deberiaTenerTooltip(feature)" :tooltip="tooltipParaCaracteristica(feature)" />
+            </td>
           </tr>
         </tbody>
       </table>
@@ -97,16 +118,19 @@
 </template>
 
 <script>
-import { mapState } from 'pinia'
+import { mapState, mapActions } from 'pinia'
 import { useCounterStore } from '../store/index'
 import InfoPlan from '../components/InfoPlan.vue'
 import PriceCard from '../components/PriceCard.vue'
+import ToolTip from '../components/ToolTip.vue'
+
 
 export default {
   name: 'PreciosRelbase',
   components: {
     InfoPlan,
-    PriceCard
+    PriceCard,
+    ToolTip,
   },
   computed: {
     ...mapState(useCounterStore, ['planes', 'planesIncluyen'])
@@ -121,6 +145,7 @@ export default {
     selectPlan(index) {
       this.selectedPlanIndex = index;
     },
+    ...mapActions(useCounterStore, ['deberiaTenerTooltip', 'tooltipParaCaracteristica'])
   }
 }
 </script>

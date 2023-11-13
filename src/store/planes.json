@@ -16,7 +16,8 @@
       "Notas de ventas",
       "Órdenes de compra",
       "Listas de precios",
-      "Impuestos adicionales", 
+      "Impuestos adicionales",
+      "Facturas de compra", 
       "1 sucursal",
       "1 bodega"
     ]
@@ -39,7 +40,8 @@
       "Notas de ventas",
       "Órdenes de compra",
       "Listas de precios",
-      "Impuestos adicionales", 
+      "Impuestos adicionales",
+      "Facturas de compra",  
       "1 sucursal",
       "Bodegas ilimitadas",
       "Documentos de exportación",
@@ -67,6 +69,7 @@
       "Órdenes de compra",
       "Listas de precios",
       "Impuestos adicionales", 
+      "Facturas de compra", 
       "1 sucursal",
       "Bodegas ilimitadas",
       "Documentos de exportación",
