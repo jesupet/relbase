@@ -6,8 +6,8 @@
     <div class="grey-bg-section">
        <div class="container text-center">
         <p class="subtittle-caract white-text my-3">Conoce algunos testimonios de nuestros clientes</p>
-        <ClientCard class="d-block d-md-none"/>
-        <div id="reviews-desktop">
+        <ClientCard class="d-block d-xl-none"/>
+        <div id="reviews-desktop" class="d-none d-xl-block">
           <div class="py-5 my-5">
             <img src="../assets/map-white.png" alt="" class="map-white">
           </div>
@@ -17,7 +17,7 @@
             :style="{
               position: 'absolute',
               top: review.top + 'px',
-              right: review.right + 'px',
+              right: review.right + 'vw',
               cursor: 'pointer'
             }"
             @click="showReview(index)"
@@ -76,7 +76,7 @@ export default {
           display: 'block',
           position: 'absolute',
           top: '-30px',
-          right: '-450px',
+          right: '-30vw',
           left: (selectedReview.left + 10) + 'px', // Ajusta la posición a la derecha del punto
           width: '400px',
           'z-index': '1',

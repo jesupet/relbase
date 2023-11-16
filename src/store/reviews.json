@@ -5,7 +5,7 @@
     "cargo": "Scrubs Lab Ltda",
     "ciudad": "Iquique",
     "top": 200,
-    "right": 560
+    "right": 36
   },
   {
     "comentario": "Excelente experiencia, el sistema es muy amigable e intuitivo, en todo el tiempo que llevábamos usándolo no hemos tenido ningún problema, todos nuestros trabajadores se adaptan a el muy rápido, así que estamos muy agradecidos",
@@ -13,7 +13,7 @@
     "cargo": "Delipet Chile",
     "ciudad": "Santiago",
     "top": 500,
-    "right": 580
+    "right": 38
   },
   {
     "comentario": "Integraciones, facturación, inventario… todo a un excelente nivel y lo mejor de todo es que siempre están dispuesto a ayudar y responder todas las consultas",
@@ -21,7 +21,7 @@
     "cargo": "Gyro Spa",
     "ciudad": "Viña del Mar",
     "top": 450,
-    "right": 600
+    "right": 40
   },
   {
     "comentario": "Lo utilizamos hace mas de un año. la experiencia ha sido buenísima, el flujo de cotización-nota de venta y facturación es genial.... Muy Buen Software",
@@ -29,7 +29,7 @@
     "cargo": "Hub Technology Spa",
     "ciudad": "Curicó",
     "top": 580,
-    "right": 580
+    "right": 38
   },
   {
     "comentario": "Es un sistema muy amigable llevamos casi tres años y todo súper bien el soporte es bastante bueno y eficaz 100% recomendable.",
@@ -37,6 +37,6 @@
     "cargo": "El Emprendedor Spa",
     "ciudad": "Punta Arenas",
     "top": 950,
-    "right": 600
+    "right": 40
   }
 ]

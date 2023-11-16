@@ -60,10 +60,10 @@
                 Sobre relBase
               </p>
               <ul class="pre-navbar">
-                <li><a href="">Preguntas frecuentes</a></li>
-                <li><a href="">¿Cómo me cambio?</a></li>
-                <li><a href="">Precios</a></li>
-                <li><a href="">Blog</a></li>
+                <li><router-link to="/faqs">Preguntas frecuentes</router-link></li>
+                <li><router-link to="/">¿Cómo me cambio?</router-link></li>
+                <li><router-link to="/precios">Precios</router-link></li>
+                <li><router-link to="/">Blog</router-link></li>
                 <li><a href="">Iniciar sesión</a></li>
                 <li><a href="">Ver demostración</a></li>
               </ul>
@@ -74,9 +74,9 @@
               </p>
               <ul class="pre-navbar">
                <li><router-link to="/politicas-privacidad">Políticas de privacidad</router-link></li>
-                <li><a href="">Términos y condiciones</a></li>
-                <li><a href="">Centro de ayuda</a></li>
-                <li><a href="">Consulta de documentos</a></li>
+                <li><router-link to="/">Términos y condiciones</router-link></li>
+                <li><router-link to="/">Centro de ayuda</router-link></li>
+                <li><router-link to="/">Consulta de documentos</router-link></li>
               </ul>
             </div>
             <div class="col-xl-4 col-md-4 col-12 last-col">

@@ -223,6 +223,7 @@ p {
 @media (max-width: 576px) {
   .pre-navbar {
     font-size: 12px;
+    line-height: 24px;
   }
 }
 
@@ -231,9 +232,16 @@ p {
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .pre-pre-navbar {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 576px) {
   .pre-pre-navbar {
     font-size: 10px;
+    line-height: 20px;
   }
 }
 
@@ -1111,13 +1119,14 @@ header .subtittle {
   margin-bottom: 16px;
 }
 
-#canales .col-sm-8 {
-  padding-left: 8px;
-}
-
 #canales .card-title {
   font-size: 35px;
-  padding: 16px;
+}
+
+@media (min-width: 992px) {
+  #canales .card-body {
+    margin-left: 20px;
+  }
 }
 
 .canal-card {
@@ -1126,6 +1135,21 @@ header .subtittle {
   max-width: 540px;
   -webkit-box-shadow: none;
           box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .canal-card {
+    min-height: 303px;
+  }
 }
 
 .btn-canal {

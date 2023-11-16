@@ -4,12 +4,13 @@
   .card-text {
     margin-bottom: 16px;
   }
-  .col-sm-8 {
-    padding-left: 8px;
-  }
   .card-title {
     font-size: 35px;
-    padding: 16px;
+  }
+  @media( min-width: $big-tablet-width){
+    .card-body {
+      margin-left: 20px;
+    }
   }
 }
 .canal-card {
@@ -17,6 +18,12 @@
   padding: 24px 16px;
   max-width: 540px;
   box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: $desktop-width) {
+    min-height: 303px;
+  }
 }
 .btn-canal {
   margin-top: 16px;
