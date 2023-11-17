@@ -27,7 +27,16 @@ export const useCounterStore = defineStore('counter', {
   mutations: {
   },
   actions: {
-    
+    navigateTo(route) {
+      this.$pinia.router.push(route);
+
+  
+      // Desplázate al principio de la página
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    },
     deberiaTenerTooltip(feature) {
       // Define aquí las condiciones para determinar si una característica debe tener un tooltip
       // Por ejemplo, puedes verificar si la característica contiene cierta palabra clave
@@ -59,6 +68,13 @@ export const useCounterStore = defineStore('counter', {
         return 'Permite confeccionar una boleta o factura electrónica que será generada y enviada automáticamente al cliente por email de acuerdo a la frecuencia seleccionada'
       }
       // Agrega más casos según sea necesario
-    }
+    },
+    redirectToHome({ commit }) {
+      // Puedes realizar acciones adicionales aquí si es necesario
+      // ...
+
+      // Ejecuta la redirección
+      commit('redirectAndScroll');
+    },
   }
 })

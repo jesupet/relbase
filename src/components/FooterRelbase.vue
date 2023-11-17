@@ -60,9 +60,9 @@
                 Sobre relBase
               </p>
               <ul class="pre-navbar">
-                <li><router-link to="/faqs">Preguntas frecuentes</router-link></li>
+                <li @click="navigateTo('/faqs')">Preguntas frecuentes</li>
                 <li><router-link to="/">¿Cómo me cambio?</router-link></li>
-                <li><router-link to="/precios">Precios</router-link></li>
+                <li><router-link to="/precios" @click="redirectToHome">Precios</router-link></li>
                 <li><router-link to="/">Blog</router-link></li>
                 <li><a href="">Iniciar sesión</a></li>
                 <li><a href="">Ver demostración</a></li>
@@ -105,13 +105,17 @@
 </template>
 
 <script>
-
+import { mapActions } from 'pinia'
+import { useCounterStore } from '../store/index'
 import RoundedBtn from './RoundedBtn.vue'
 
 export default {
   name: 'FooterRelbase',
   components: {
     RoundedBtn,
+  },
+  methods: {
+    ...mapActions(useCounterStore, ['navigateTo'])
   }
 }
 </script>
