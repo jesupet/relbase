@@ -60,7 +60,7 @@
                 Sobre relBase
               </p>
               <ul class="pre-navbar">
-                <li @click="navigateTo('/faqs')">Preguntas frecuentes</li>
+                <li><router-link to="/faqs">Preguntas frecuentes</router-link></li>
                 <li><router-link to="/">¿Cómo me cambio?</router-link></li>
                 <li><router-link to="/precios" @click="redirectToHome">Precios</router-link></li>
                 <li><router-link to="/">Blog</router-link></li>
