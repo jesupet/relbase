@@ -17,7 +17,7 @@
             :style="{
               position: 'absolute',
               top: review.top + 'px',
-              right: review.right + 'vw',
+              right: (review.right) + '%',
               cursor: 'pointer'
             }"
             @click="showReview(index)"
@@ -76,8 +76,7 @@ export default {
           display: 'block',
           position: 'absolute',
           top: '-30px',
-          right: '-30vw',
-          left: (selectedReview.left + 10) + 'px', // Ajusta la posición a la derecha del punto
+          left: (selectedReview.right + 30) + 'px', // Ajusta la posición a la derecha del punto
           width: '400px',
           'z-index': '1',
         };
