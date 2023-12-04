@@ -165,10 +165,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "paris.png",
     "titulo": "Paris",
     "descripcion": "Emite boletas y facturas de tus pedidos de Paris Marketplace y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "paris",
     "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de Paris Marketplace.",
     "caracteristicas": [
       {
@@ -216,10 +216,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "jumpseller.png",
     "titulo": "Jumpseller",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "jumpseller",
     "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Jumpseller.",
     "caracteristicas": [
       {
@@ -267,10 +267,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "shopify.png",
     "titulo": "Shopify",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "shopify",
     "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Shopify.",
     "caracteristicas": [
       {
@@ -314,10 +314,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "wc.png",
     "titulo": "Woocommerce",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "woocommerce",
     "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de WooCommerce.",
     "caracteristicas": [
       {
@@ -361,10 +361,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "prestashop.png",
     "titulo": "Prestashop",
     "descripcion": "Emite boletas y facturas de tus pedidos y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "prestashop",
     "precio": "Desde 0,5 UF + IVA mensual adicional al plan contratado por cada cuenta de Prestashop.",
     "caracteristicas": [
       {
@@ -425,10 +425,10 @@
     ]
   },
   {
-    "logo": "falabella.png",
+    "logo": "dafiti.png",
     "titulo": "Dafiti",
     "descripcion": "Emite boletas y facturas de tus pedidos de Dafiti Seller Center y sincroniza tu inventario desde relBase.",
-    "vermas": "falabella",
+    "vermas": "dafiti",
     "precio": "Desde 1 UF + IVA mensual adicional al plan contratado por cada cuenta de Dafiti Seller Center.",
     "caracteristicas": [
       {
