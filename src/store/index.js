@@ -28,9 +28,7 @@ export const useCounterStore = defineStore('counter', {
   },
   actions: {
     navigateTo(route) {
-      this.$pinia.router.push(route);
-
-  
+      this.$pinia.router.push(route); 
       // Desplázate al principio de la página
       window.scrollTo({
         top: 0,

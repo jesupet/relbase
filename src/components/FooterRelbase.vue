@@ -27,7 +27,7 @@
                 <p class="footer-p">visita nuestra sección de preguntas frecuentes</p>
               </div>
               <div class="col-md-5 col-12 text-md-end text-start mt-md-0 mt-3 mt-md-0 mt-5">
-                <RoundedBtn :buttonText="'Ver preguntas'" :class="'white-btn-primary me-0 ms-0'"/>
+                <RoundedBtn :buttonText="'Ver preguntas'" :class="'white-btn-primary me-0 ms-0'" :to="'/faqs'"/>
                 <p class="footer-p mt-md-3 mt-1 text-md-end">o llámanos al +56 2 2869 1771</p>
               </div>
             </div>
@@ -41,7 +41,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-4 col-md-12 first-col">
-              <img src="../assets/white_logo.png" alt="" class="little-logo">
+              <router-link to="/"><img src="../assets/white_logo.png" alt="" class="little-logo"></router-link> 
               <p class="pre-navbar mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -73,7 +73,7 @@
                 Soporte
               </p>
               <ul class="pre-navbar">
-               <li><router-link to="/politicas-privacidad">Políticas de privacidad</router-link></li>
+               <li><router-link to="/politicas-privacidad" event="click" class="smooth-scroll">Políticas de privacidad</router-link></li>
                 <li><router-link to="/">Términos y condiciones</router-link></li>
                 <li><router-link to="/">Centro de ayuda</router-link></li>
                 <li><router-link to="/">Consulta de documentos</router-link></li>

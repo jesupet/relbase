@@ -17,3 +17,20 @@ app.use(router);
 
 
 app.mount("#app");
+
+const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+smoothScrollLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    const targetId = link.hash.substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  });
+});

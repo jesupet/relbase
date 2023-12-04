@@ -111,9 +111,9 @@ const router = createRouter({
       // BEFORE:
       // return { selector: to.hash }
 
-      return { el: to.hash }
+      return { el: to.hash, behavior: 'smooth' }; // Asegúrate de añadir 'behavior: 'smooth'' para un desplazamiento suave
     }
-    return { x: 0, y: 0 };
+      return { x: 0, y: 0 };
   },
 })
 

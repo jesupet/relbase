@@ -4,7 +4,7 @@
     <PreNavbar/>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="@/assets/grey_logo.png" alt="logo relbase" class="navbar-logo"></a>
+        <router-link class="navbar-brand" to="/"><img src="@/assets/grey_logo.png" alt="logo relbase" class="navbar-logo"></router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

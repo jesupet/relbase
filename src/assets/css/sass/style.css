@@ -14,7 +14,7 @@ h4, .footer-tittle, .italic, h1, h2, h3, .titulo-gris, .pre-titulo, .green-pre-t
   font-weight: 500;
 }
 
-.little-p, .little-p-white, .footer-p, .white-pre-titulo, .subtittle-caract, p, .medium-p, .medium-p-white, .nav-text, .pre-navbar, .btn-text, .btn-primary, .white-btn-primary {
+.little-p, .little-p-white, .footer-p, .white-pre-titulo, .subtittle-caract, p, .medium-p, .medium-p-white, .nav-text, .pre-navbar, .btn-text, .orange-btn-primary, .white-btn-primary {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
 }
@@ -34,7 +34,7 @@ h4, .footer-tittle, .italic {
   font-size: 15px;
 }
 
-.btn-primary {
+.orange-btn-primary {
   color: #fff;
   background-color: #FF5E2B;
   border-color: transparent;
@@ -358,14 +358,18 @@ p {
   text-align: right;
 }
 
-.btn-primary {
+.orange-btn-primary {
   padding: 5px 20px;
   line-height: 35px;
 }
 
-.btn-primary:hover {
+.orange-btn-primary:hover {
   background-color: #fff;
   border-color: #FF5E2B;
+  color: #FF5E2B;
+}
+
+.orange-btn-primary:active, .orange-btn-primary:focus {
   color: #FF5E2B;
 }
 
@@ -637,7 +641,7 @@ header .subtittle {
 }
 
 .contenido1 {
-  padding: 48px 78px 48px 48px;
+  padding: 48px;
 }
 
 @media (max-width: 1200px) {

@@ -1,4 +1,4 @@
-.btn-primary {
+.orange-btn-primary {
   @extend %button-color;
   @extend %catamaran-font-medium;
   &:hover {
@@ -6,6 +6,9 @@
   }
   padding: 5px 20px;
   line-height: 35px;
+  &:active, &:focus {
+    color: $orange-btn;
+  }
 }
 
 .white-btn-primary {

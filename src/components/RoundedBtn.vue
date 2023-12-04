@@ -1,5 +1,5 @@
 <template>
-  <button :type="type" class="btn btn-primary rounded-pill">
+  <button :type="type" class="btn orange-btn-primary rounded-pill">
     <router-link :to="to">{{buttonText}}</router-link>
   </button>
 </template>

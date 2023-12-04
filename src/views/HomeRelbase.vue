@@ -42,7 +42,7 @@
       </header>
     </div>
     <!-- SECTION 1: SIMPLIFICAMOS -->
-    <section class="container-fluid" id="simplificamos">
+    <section class="container" id="simplificamos">
       <div class="row">
         <div class="col-xl-7 col-lg-6 col-12">
           <img src="../assets/software.png" alt="" class="img-fluid">
@@ -104,7 +104,7 @@
             <p class="medium-p-white mt-4 mb-5">
               Mira cómo relBase ayuda a las empresas y emprendedores a tener éxito. ¡Únete a nuestra comunidad y lleva tu negocio al siguiente nivel!
             </p>
-            <RoundedBtn :buttonText="'Ver testimonios'"/>
+            <RoundedBtn :buttonText="'Ver testimonios'" :to="'/clientes'"/>
           </div>
           <div class="col-xl-7 col-md-6 d-sm-block d-none">
             <img src="../assets/map.png" alt="">
