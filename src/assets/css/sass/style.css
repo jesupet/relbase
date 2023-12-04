@@ -49,7 +49,6 @@ h4, .footer-tittle, .italic {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 * {
@@ -70,6 +69,10 @@ a, a:hover {
 p {
   margin: 0px;
   padding: 0px;
+}
+
+.parent {
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {

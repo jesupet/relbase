@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
      <div class="grey-bg-tittle text-center">
         <h1>Nuestros Clientes</h1>
     </div>

@@ -1,7 +1,6 @@
 #app {
   width: 100%;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 * {
   margin: 0;
@@ -18,4 +17,7 @@ a, a:hover {
 p {
   margin: 0px;
   padding: 0px;
+}
+.parent {
+  overflow-x: hidden;
 }

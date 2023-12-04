@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
      <div class="grey-bg-tittle text-center">
       <img src="../../assets/vectors/pto-vta.svg" alt="" class="caract-icono">
       <h1>Punto de venta</h1>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
      <div class="grey-bg-tittle">
       <img src="../../assets/vectors/app-movil.svg" alt="" class="caract-icono">
       <h1>App Móvil</h1>

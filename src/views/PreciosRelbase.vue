@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5">
+  <div class="mb-5 parent">
      <div class="grey-bg-tittle">
       <h1>Precios</h1>
     </div>

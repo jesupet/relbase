@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
     <div class="grey-bg-tittle text-center">
       <p class="white-text">Recursos</p>
       <hr class="white-text white-line">

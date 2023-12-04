@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
     <div class="text-center canal-title">
       <div class="img-canal-cont">
         <img :src="require(`@/assets/logos/${canal.logo}`)" class="img-fluid rounded-start img-canal" alt="">

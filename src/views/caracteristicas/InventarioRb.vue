@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent">
     <div class="grey-bg-tittle">
       <img src="../../assets/vectors/inventario.svg" alt="" class="caract-icono">
       <h1>Inventario</h1>
