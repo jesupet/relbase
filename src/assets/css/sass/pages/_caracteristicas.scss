@@ -109,3 +109,32 @@
 .vtas-line {
   margin-top: 54px;
 }
+.logo-cont {
+  img {
+    width: 150px;
+  }
+  .relbase-logo {
+    width: 200px;
+    padding: 140px 0px 100px;
+  }
+}
+.main-canales {
+  padding: 100px 24px;
+  .row {
+    @media (min-width: $desktop-width){
+      padding-bottom: 100px;
+    }
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .izq {
+    @media (min-width: $desktop-width){
+      padding-right: 135px;
+      }
+  }
+  .col-4 {
+    display: grid;
+    align-content: space-around;
+  }
+}
