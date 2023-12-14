@@ -61,7 +61,7 @@
               </p>
               <ul class="pre-navbar">
                 <li><router-link to="/faqs">Preguntas frecuentes</router-link></li>
-                <li><router-link to="/">¿Cómo me cambio?</router-link></li>
+                <li><router-link aria-current="page" :to="{name: 'home', hash: '#pasos'}">¿Cómo me cambio?</router-link></li>
                 <li><router-link to="/precios" @click="redirectToHome">Precios</router-link></li>
                 <li><router-link to="/">Blog</router-link></li>
                 <li><a href="">Iniciar sesión</a></li>

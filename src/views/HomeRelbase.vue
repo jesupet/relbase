@@ -104,7 +104,7 @@
             <p class="medium-p-white mt-4 mb-5">
               Mira cómo relBase ayuda a las empresas y emprendedores a tener éxito. ¡Únete a nuestra comunidad y lleva tu negocio al siguiente nivel!
             </p>
-            <RoundedBtn :buttonText="'Ver testimonios'" :to="'/clientes'"/>
+            <RoundedBtn :buttonText="'Ver testimonios'" :to="{ name: 'clientes' }"/>
           </div>
           <div class="col-xl-7 col-md-6 d-sm-block d-none">
             <img src="../assets/map.png" alt="">
