@@ -55,8 +55,11 @@
   padding: 100px 0px;
   margin: 0px;
   .card-venta {
-    min-height: 300px;
+    min-height: 308px;
     padding: 16px;
+    @media (min-width: $big-tablet-width) and  (max-width: 1400px) {
+      min-height: 391px;
+    }
   }
 }
 //INVENTARIO

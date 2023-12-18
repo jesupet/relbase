@@ -406,7 +406,7 @@ button {
   padding-bottom: 35px;
 }
 
-.card-inv, .caract-card, .api-card {
+.card-inv, .caract-card, .api-card, .card-venta {
   margin-bottom: 32px;
 }
 
@@ -849,8 +849,13 @@ header .subtittle {
   margin: 0px;
 }
 .grey-sec .card-venta {
-  min-height: 300px;
+  min-height: 308px;
   padding: 16px;
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .grey-sec .card-venta {
+    min-height: 391px;
+  }
 }
 
 .card-inv {

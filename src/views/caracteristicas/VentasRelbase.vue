@@ -10,17 +10,6 @@
       </p>
       <div class="main-ventas container">
         <div class="row">
-          <div class="col-xl-6 col-12 izq order-xl-0 order-1">
-            <h2>{{caracteristicas[0].titulo}}</h2>
-            <hr class="hr-caract">
-            <p class="medium-p">{{caracteristicas[0].contenido}}</p>
-          </div>
-          <div class="col-xl-6 col-12 mockup-vtas order-xl-1 order-0">
-            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
-          </div>
-        </div>
-        <hr class="d-xl-none d-block vtas-line">
-        <div class="row">
           <div class="col-xl-6 col-12 order-2 text-xl-end text-start">
             <h2>{{caracteristicas[1].titulo}}</h2>
             <hr class="hr-caract der">
@@ -129,33 +118,44 @@
           </div>
         </div>
         <hr class="d-xl-none d-block vtas-line">
-        <div class="row">
-          <div class="col-xl-6 col-12 order-xl-0 order-1">
-            <h2>{{caracteristicas[9].titulo}}</h2>
-            <hr class="hr-caract der">
-            <p class="medium-p">{{caracteristicas[9].contenido}}</p>
-          </div>
-          <div class="col-xl-6 col-12 order-xl-1 order-0 mockup-vtas">
-            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
-          </div>
-        </div>
-        <hr class="d-xl-none d-block vtas-line">
-        <div class="row">
-          <div class="col-xl-6 col-12 izq order-2 text-xl-end text-start">
-            <h2>{{caracteristicas[10].titulo}}</h2>
-            <hr class="hr-caract">
-            <p class="medium-p">{{caracteristicas[10].contenido}}</p>
-          </div>
-          <div class="col-xl-6 col-12 mockup-vtas order-1">
-            <img src="../../assets/diagrama.png" alt="" class="img-fluid">
-          </div>
-        </div>
       </div>
-      <!-- CARDS SIN USAR
+    
       <div class="grey-sec container-fluid">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-4 col-12">
+              <div class="card card-venta">
+                <div class="card-body">
+                  <div>
+                    <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
+                    <p class="titulo-gris-footer">
+                      {{caracteristicas[0].titulo}}
+                    </p>
+                  </div>
+                  <hr class="hr-caract der">
+                  <p class="medium-p">
+                    {{caracteristicas[0].contenido}}
+                  </p>
+                </div>
+              </div>
+            </div>
+             <div class="col-lg-4 col-12">
+              <div class="card card-venta">
+                <div class="card-body">
+                  <div>
+                    <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
+                    <p class="titulo-gris-footer">
+                      {{caracteristicas[9].titulo}}
+                    </p>
+                  </div>
+                  <hr class="hr-caract der">
+                  <p class="medium-p">
+                    {{caracteristicas[9].contenido}}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
               <div class="card card-venta">
                 <div class="card-body">
                   <div>
@@ -171,60 +171,9 @@
                 </div>
               </div>
             </div>
-             <div class="col-lg-6 col-12">
-              <div class="card card-venta">
-                <div class="card-body">
-                  <div>
-                    <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
-                    <p class="titulo-gris-footer">
-                      {{caracteristicas[11].titulo}}
-                    </p>
-                  </div>
-                  <hr class="hr-caract der">
-                  <p class="medium-p">
-                    {{caracteristicas[11].contenido}}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="row">
-            <div class="col-lg-6 col-12">
-              <div class="card card-venta">
-                <div class="card-body">
-                  <div>
-                    <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
-                    <p class="titulo-gris-footer">
-                      {{caracteristicas[12].titulo}}
-                    </p>
-                  </div>
-                  <hr class="hr-caract der">
-                  <p class="medium-p">
-                    {{caracteristicas[12].contenido}}
-                  </p>
-                </div>
-              </div>
-            </div>
-             <div class="col-lg-6 col-12">
-              <div class="card card-venta">
-                <div class="card-body">
-                  <div>
-                    <img src="../../assets/vectors/doc-icon.svg" alt="" class="mb-3">
-                    <p class="titulo-gris-footer">
-                      {{caracteristicas[13].titulo}}
-                    </p>
-                  </div>
-                  <hr class="hr-caract der">
-                  <p class="medium-p">
-                    {{caracteristicas[13].contenido}}
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>      
       </div>
-      -->
     </div>
   </div>
 </template>
