@@ -1,6 +1,5 @@
 <template>
   <div>
-    <PrePreNavbar/>
     <PreNavbar/>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
@@ -141,14 +140,12 @@
 </template>
 
 <script>
-import PrePreNavbar from './PrePreNavbar.vue'
 import PreNavbar from './PreNavbar.vue'
 import RoundedBtn from '../RoundedBtn.vue'
 
 export default {
   name: 'NavbarRelbase',
   components:{
-    PrePreNavbar,
     PreNavbar,
     RoundedBtn,
   },

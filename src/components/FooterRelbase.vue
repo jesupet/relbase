@@ -43,16 +43,17 @@
             <div class="col-xl-4 col-md-12 first-col">
               <router-link to="/"><img src="../assets/white_logo.png" alt="" class="little-logo"></router-link> 
               <p class="pre-navbar mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Simplificamos la forma en la que venden las empresas
               </p>
               <hr class="footer-line">
               <p class="pre-navbar">
                 Síguenos en:
               </p>
               <div class="d-flex">
-                <a href="" target="_blank"><img src="../assets/icons/fb.png" alt="" class="footer-icon"></a>
-                <a href="" target="_blank"><img src="../assets/icons/twitter.png" class="footer-icon"></a>
-                <a href="" target="_blank"><img src="../assets/icons/insta.png" class="footer-icon"></a>
+                <a href="https://web.facebook.com/relbase" target="_blank"><img src="../assets/icons/fb.png" alt="" class="footer-icon"></a>
+                <a href="https://www.instagram.com/relbase/" target="_blank"><img src="../assets/icons/insta.png" class="footer-icon"></a>
+                <a href="https://www.linkedin.com/company/relbase/" target="_blank"><img src="../assets/icons/twitter.png" class="footer-icon"></a>
+                <a href="https://www.youtube.com/@relbase9697" target="_blank"><img src="../assets/icons/twitter.png" class="footer-icon"></a>
               </div>
             </div>
             <div class="col-xl-2 col-md-4 col-6 sec-col">

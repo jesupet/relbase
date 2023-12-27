@@ -10,7 +10,7 @@
             </div>
             <h1>Conecta tus canales de venta</h1>
             <p class="subtittle">y mantén sincronizado tu inventario desde un solo lugar.</p>
-            <PlayBtn class="play-btn"/>
+            <PlayBtn :to="'https://www.youtube.com/watch?v=gshF7au0hc0'" class="play-btn"/>
             <div class="row mt-5">
               <div class="col-5 border-right">
                 <div class="d-flex flex-row mb-3">
@@ -21,7 +21,7 @@
               </div>
               <div class="col-7">
                 <p class="little-p-white pb-3">y vende a través de nuestro punto de venta con boleta y factura electrónica conectado a tu inventario y canales digitales.</p>
-                <img src="../assets/googleplay.png" alt="google play logo">
+                <a href="https://play.google.com/store/apps/details?id=cl.relke.relbase&hl=es_CL&gl=US" target="_blank"><img src="../assets/googleplay.png" alt="google play logo"></a> 
               </div>
             </div>
           </div>
